@@ -5,8 +5,8 @@
 
 ############################# 
 # Clear after use
-pw = 'XXXX'
 usrname = 'XXX'
+pw      = 'XXX'
 
 ############################# 
 save_dir = '/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked/GRB210605A5/'
@@ -148,6 +148,7 @@ for index, row in ads_df_select.iterrows():
             msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
             raise Exception(msg)
     else:
+        token = None
         raise Exception(f"Could got get authorization: {token['detail']}")
 
 
@@ -210,6 +211,7 @@ for index, row in ads_df_select.iterrows():
             msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
             raise Exception(msg)
     else:
+        token = None
         raise Exception(f"Could got get authorization: {token['detail']}")
 
 
