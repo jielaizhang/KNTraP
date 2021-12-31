@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+############################# HOW TO RUN IN TERMINAL
+# python download_from_NOAOarchive.py 2>&1 | tee download_from_NOAOarchive.out
+
 ############################# 
 # Clear after use
 pw = 'XXXX'
@@ -85,43 +88,6 @@ jj = {
 apiurl = f'{adsurl}/fasearch/?limit=200000'
 print(f'Using API url: {apiurl}')
 ads_df = pd.DataFrame(requests.post(apiurl,json=jj).json()[1:])
-jj = {
-    "outfields" : [
-        "md5sum",
-        "archive_filename",
-        #"telescope",
-        #"instrument",
-        #"obs_type",
-        "proc_type",
-        "prod_type",
-        #"release_date",
-        "proposal",
-        "ra_center",
-        #"ra_min",
-        "dec_center",
-        #"dec_min",
-        "caldat",
-        "url",
-        "filesize",
-        "ifilter",
-        #"seeing",
-        "exposure",
-        #"depth",
-        "dateobs_min",
-        "dateobs_max",
-    ],
-    "search" : [
-        #["release_date", "2020-01-01", "2021-01-01"], # proprietary
-        ["obs_type", 'object'],
-        ["proposal","2020B-0253"],
-        ["proc_type","instcal"],
-        ["prod_type", "image"],
-        ["caldat","2020-06-01", "2021-06-11"]
-    ]
-}
-apiurl = f'{adsurl}/fasearch/?limit=200000'
-print(f'Using API url: {apiurl}')
-ads_df = pd.DataFrame(requests.post(apiurl,json=jj).json()[1:])
 ads_df
 
 ############################# FILTER and DOWNLOAD 1
@@ -158,7 +124,6 @@ for index, row in ads_df_select.iterrows():
     print('archive_filename: ',row['archive_filename'])
     print(' ')
     print('Will save as: ',fname)
-
 
     headers = dict()
     fileurl = f'{natroot}/api/retrieve/{fileID}'
