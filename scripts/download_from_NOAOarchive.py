@@ -4,6 +4,9 @@
 # Clear after use
 pw = 'XXXX'
 usrname = 'XXX'
+
+############################# 
+save_dir = '/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked/GRB210605A5/'
  
 ############################# IMPORTS
 
@@ -174,8 +177,8 @@ for index, row in ads_df_select.iterrows():
         r2 = requests.get(fileurl,headers=headers)
         if r2.status_code == 200:
             print(f'\nRead file with size={len(r2.content):,} bytes')
-            open(fname, 'wb').write(r2.content) # write temp file
-            print(f'Saved: {fname}')
+            open(save_dir+fname, 'wb').write(r2.content) # write temp file
+            print(f'Saved: {save_dir}{fname}')
         else:
             msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
             raise Exception(msg)
@@ -236,8 +239,8 @@ for index, row in ads_df_select.iterrows():
         r2 = requests.get(fileurl,headers=headers)
         if r2.status_code == 200:
             print(f'\nRead file with size={len(r2.content):,} bytes')
-            open(fname, 'wb').write(r2.content) # write temp file
-            print(f'Saved: {fname}')
+            open(save_dir+fname, 'wb').write(r2.content) # write temp file
+            print(f'Saved: {save_dir}{fname}')
         else:
             msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
             raise Exception(msg)
