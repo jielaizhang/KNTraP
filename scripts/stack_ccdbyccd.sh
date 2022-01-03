@@ -1,4 +1,4 @@
-for ext in {0..61}
+for ext in {1..61}
 do
       echo ###################
       echo --------
