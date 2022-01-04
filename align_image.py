@@ -35,7 +35,7 @@ from determine_imageOverlap import determine_imageOverlap
 __author__      = "Jielai Zhang"
 __license__     = "MIT"
 __version__     = "1.0.1"
-__date__        = "2020-06-26"
+__date__        = "2021-01-04"
 __maintainer__  = "Jielai Zhang"
 __email__       = "zhang.jielai@gmail.com"
 
