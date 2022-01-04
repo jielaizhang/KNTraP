@@ -29,7 +29,7 @@ import sys, os, ntpath
 import subprocess
 
 # Jielai's modules
-from datavis.fits.determine_imageOverlap import determine_imageOverlap
+from determine_imageOverlap import determine_imageOverlap
 
 
 __author__      = "Jielai Zhang"
