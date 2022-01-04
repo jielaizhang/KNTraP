@@ -1,0 +1,1 @@
+GRB210605A5: g and i band templates created using public NOAO archive data gone public prior to June 2021 (DWF Run O9)
