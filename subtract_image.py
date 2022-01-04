@@ -30,13 +30,13 @@ import numpy as np
 import subprocess
 
 # Jielai written modules
-from datastats.calculate_skyStats2 import calculate_skyStats
-from datastats.calculate_FWHM import calculate_FWHM
+from calculate_skyStats import calculate_skyStats
+from calculate_FWHM import calculate_FWHM
 
 __author__      = "Jielai Zhang"
 __license__     = "MIT"
 __version__     = "1.0.1"
-__date__        = "2020-06-18"
+__date__        = "2021-01-04"
 __maintainer__  = "Jielai Zhang"
 __email__       = "zhang.jielai@gmail.com"
 
