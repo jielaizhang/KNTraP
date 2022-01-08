@@ -2,6 +2,7 @@
 
 ############################# HOW TO RUN IN TERMINAL
 # python download_from_NOAOarchive.py 2>&1 | tee download_from_NOAOarchive.out
+# Can run from directory containing this script, and .out will be saved and can be gitted.
 
 ############################# 
 # Clear after use
@@ -14,10 +15,10 @@ save_dir = '/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked/'
 ############################# IMPORTS
 
 import sys, os
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
-import numpy as np
 import astropy.io.fits as pyfits
 import astropy.utils as autils
 import requests
@@ -25,11 +26,11 @@ import json
 import datetime
 from pprint import pprint as pp
 import subprocess
+import time
 
 ############################# SETUP
 
 # Time Counter function
-import time
 def tic():
     tic.start = time.perf_counter()
 def toc():
@@ -101,11 +102,10 @@ dic_fieldname_coordinates = {
     'GRB210605A1' : [19.9791667, -42.1750000,0.2]
 }
 
-for n,c in dic_fieldname_coordinates.items():
+for field_name,c in dic_fieldname_coordinates.items():
     print('&&&&&&&&&&&&&&&&&&&')
     print('&&&&&&&&&&&&&&&&&&&')
-    print(n,c)
-
+    print(field_name,c)
     field_RA             = dic_fieldname_coordinates[field_name][0]
     field_DEC            = dic_fieldname_coordinates[field_name][1]
     dec_offset_allowance = dic_fieldname_coordinates[field_name][2] # 0.05
