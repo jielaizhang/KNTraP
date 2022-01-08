@@ -24,8 +24,6 @@ import requests
 import json
 import datetime
 from pprint import pprint as pp
-
-# Jielai added modules 
 import subprocess
 
 ############################# SETUP
