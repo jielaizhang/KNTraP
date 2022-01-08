@@ -103,9 +103,15 @@ dic_fieldname_coordinates = {
 }
 
 for field_name,c in dic_fieldname_coordinates.items():
-    print('&&&&&&&&&&&&&&&&&&&')
-    print('&&&&&&&&&&&&&&&&&&&')
-    print(field_name,c)
+    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+    print('Downloading data for new field: ',field_name,c)
+    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+    if os.path.isdir(save_dir+os.sep+field_name):
+        print(f'{save_dir+os.sep+field_name} exists.')
+    else:
+        os.makedirs(save_dir+os.sep+field_name)
+        print(f'{save_dir+os.sep+field_name} -- directory made')
     field_RA             = dic_fieldname_coordinates[field_name][0]
     field_DEC            = dic_fieldname_coordinates[field_name][1]
     dec_offset_allowance = dic_fieldname_coordinates[field_name][2] # 0.05
@@ -156,7 +162,7 @@ for field_name,c in dic_fieldname_coordinates.items():
             r2 = requests.get(fileurl,headers=headers)
             if r2.status_code == 200:
                 print(f'\nRead file with size={len(r2.content):,} bytes')
-                open(save_dir+os.sep()+field_name+os.sep()+fname, 'wb').write(r2.content) # write temp file
+                open(save_dir+os.sep+field_name+os.sep+fname, 'wb').write(r2.content) # write temp file
                 print(f'Saved: {save_dir}/{field_name}/{fname}')
             else:
                 msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
