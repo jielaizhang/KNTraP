@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-""" create_kntrap_bashscript.py -- Input fieldname, filterband, ctio_caldate, fitsextension, create a bash shell script to run the entire KNTraP pipeline. 
+""" write_kntrap_bashscript.py -- Input fieldname, filterband, ctio_caldate, fitsextension, create a bash shell script to run the entire KNTraP pipeline. 
 
-Usage: create_kntrap_bashscript [-h] [-q] [-v] [--debug] [--overwrite] [--kntrap_src_path STRING] [--conda_env_name STRING] [--kntrap_data_dir STRING] [--outdir STRING] <fieldname> <filterband> <ctio_caldate> <fitsextension> 
+Usage: write_kntrap_bashscript [-h] [-q] [-v] [--debug] [--overwrite] [--kntrap_src_path STRING] [--conda_env_name STRING] [--kntrap_data_dir STRING] [--outdir STRING] <fieldname> <ctio_caldate> <filterband> <fitsextension> 
 
 Arguments:
     fieldname (string)
-    filterband (string)
-        e.g. g or r or i
     ctio_caldate (string)
         e.g. 20210607
+    filterband (string)
+        e.g. g or r or i
     fitsextension (string)
         e.g. 30, can be 1-61
 
@@ -22,10 +22,10 @@ Options:
     --kntrap_src_path STRING            Where src for KNTraP project lives [default: /fred/oz100/NOAO_archive/KNTraP_Project/src/KNTraP/]
     --conda_env_name STRING             Python conda environment name [default: kntrap]
     --kntrap_data_dir STRING            KNTraP data and working directory [default: /fred/oz100/NOAO_archive/KNTraP_Project/kntrappipe]
-    --outdir STRING                     Output the bash script here. If not set, will output in kntrap_data_dir/logs/kntrapbashscripts. 
+    --outdir STRING                     Output the bash script here. If not set, will output in kntrap_data_dir/logs/ozstar/<fieldname>/. 
 
 Examples:
-    python create_kntrap_bashscript.py GRB210605A5 g 20210607 30
+    python write_kntrap_bashscript.py GRB210605A5 g 20210607 30
 """
 import docopt
 
@@ -45,7 +45,7 @@ __email__       = "zhang.jielai@gmail.com"
 
 script_template_no_spreadmodel = '''# No Spread Model Version
 
-cd DATA_DIR
+cd PIPE_DATA_DIR
 source activate CONDA_ENV_NAME
 export PYTHONPATH=$PYTHONPATH:SRC_DIR
 
@@ -102,7 +102,7 @@ python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending NEG --fw
 
 '''
 
-def create_KNTraP_bashscript(fieldname,filterband,ctio_caldate,fitsextension,
+def write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
                                 kntrap_src_path='/fred/oz100/NOAO_archive/KNTraP_Project/src/KNTraP/',
                                 conda_env_name='kntrap',
                                 kntrap_data_dir='/fred/oz100/NOAO_archive/KNTraP_Project/kntrappipe',
@@ -111,7 +111,7 @@ def create_KNTraP_bashscript(fieldname,filterband,ctio_caldate,fitsextension,
                                 overwrite=False):
 
     # Create the bash script
-    script_string = script_template_no_spreadmodel.replace('DATA_DIR',kntrap_data_dir)
+    script_string = script_template_no_spreadmodel.replace('PIPE_DATA_DIR',kntrap_data_dir)
     script_string = script_string.replace('CONDA_ENV_NAME',conda_env_name)
     script_string = script_string.replace('SRC_DIR',kntrap_src_path)
     script_string = script_string.replace('FIELDNAME',fieldname)
@@ -124,13 +124,15 @@ def create_KNTraP_bashscript(fieldname,filterband,ctio_caldate,fitsextension,
         bash_script_dir = kntrap_data_dir+'/logs/kntrapbashscripts'
     else:
         bash_script_dir = outdir
-    bash_script_path    = bash_script_dir+f'/kntrappipe_{fieldname}_{filterband}_{ctio_caldate}_{fitsextension}.sh'
+    bash_script_path    = bash_script_dir+f'/kntrappipe_{fieldname}_{ctio_caldate}_{filterband}_{fitsextension}.sh'
     
     # Create output directory if not exist
-    exists_already  = create_dir_ifnot(bash_script_dir)
+    just_created  = create_dir_ifnot(bash_script_dir)
     if debugmode:
-        print(f'{bash_script_dir} exists already: {exists_already}\n',
-                'If False, directory was created.\n')
+        if just_created == True: 
+            print(f'DEBUG: {bash_script_dir} was just created: {exists_already}')
+        else:
+            print(f'DEBUG: {bash_script_dir} was already exists, so was not newly created.')
 
     # Write the bash script to file
     f = open(bash_script_path,'w')
@@ -161,8 +163,8 @@ if __name__ == "__main__":
     quietmode       = arguments['--quietmode']
     # Required arguments
     fieldname       = arguments['<fieldname>']
-    filterband      = arguments['<filterband>']
     ctio_caldate    = arguments['<ctio_caldate>']
+    filterband      = arguments['<filterband>']
     fitsextension   = arguments['<fitsextension>']
     # Optional arguments (with defaults set)
     kntrap_src_path = arguments['--kntrap_src_path']
@@ -172,7 +174,7 @@ if __name__ == "__main__":
     # Not implemented arguments (to be implemented later)
     overwrite       = arguments['--overwrite']
 
-    _ = create_KNTraP_bashscript(fieldname,filterband,ctio_caldate,fitsextension,
+    _ = write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
                                 kntrap_src_path=kntrap_src_path,
                                 conda_env_name=conda_env_name,
                                 kntrap_data_dir=kntrap_data_dir,
