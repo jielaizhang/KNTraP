@@ -95,7 +95,7 @@ echo "SUBTRACT: science - template"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP3: subtract template and science image, output subtraction.fits
 # overall syntax: subtract_image --sextractor SE_loc template_resamp.fits and science_resamp.fits -s subtraction.fits 
-echo "Execute: python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
+echo "Execute: python ${src_dir}/subtract_image.py -o --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
 echo "||| ALIGN template and science Target file created? --> ||||"
 ls data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
@@ -240,3 +240,4 @@ if __name__ == "__main__":
                                 verbose=verbose,debugmode=debugmode,quietmode=quietmode,
                                 overwrite=overwrite)
                                 # overwrite function not yet fully implemented. 
+                                # currently overwrite is on
