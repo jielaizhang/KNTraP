@@ -50,8 +50,8 @@ __email__       = "zhang.jielai@gmail.com"
 batch_script_template = '''#!/bin/bash
 
 #SBATCH --job-name=JOB_NAME
-#SBATCH --output=/PIPE_DATA_DIR/logs/ozstar/FIELDNAME/JOB_NAME.out
-#SBATCH --error=/PIPE_DATA_DIR/logs/ozstar/FIELDNAME/JOB_NAME.err
+#SBATCH --output=/PIPE_DATA_DIR/logs/ozstar/FIELDNAME/kntrappipe_JOB_NAME.out
+#SBATCH --error=/PIPE_DATA_DIR/logs/ozstar/FIELDNAME/kntrappipe_JOB_NAME.err
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -92,14 +92,14 @@ def submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
                                                     overwrite=overwrite) # overwrite function not implemented yet
 
     # Define slurm job name 
-    slurm_job_name      = f'kntrappipe_{fieldname}_{filterband}_{ctio_caldate}_{fitsextension}'
+    slurm_job_name      = f'{fieldname}_{ctio_caldate}_{filterband}_{fitsextension}'
 
     # Figure out where to save the bash script
     if outdir == None:
         slurm_script_dir = kntrap_data_dir+f'/logs/ozstar/{fieldname}'
     else:
         slurm_script_dir = outdir
-    slurm_script_path    = slurm_script_dir+f'/kntrappipe_{fieldname}_{ctio_caldate}_{filterband}_{fitsextension}_slurm.sh'
+    slurm_script_path    = slurm_script_dir+f'/kntrappipe_{slurm_job_name}_slurm.sh'
 
     # Create output directory if not exist
     just_created  = create_dir_ifnot(slurm_script_dir)
