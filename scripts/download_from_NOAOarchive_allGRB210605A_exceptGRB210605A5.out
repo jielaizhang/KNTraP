@@ -1,0 +1,3295 @@
+Using server on https://astroarchive.noirlab.edu
+adsurl = https://astroarchive.noirlab.edu/api/adv_search
+Started on: 2022-01-08 15:27:14.404430
+Using API url: https://astroarchive.noirlab.edu/api/adv_search/fasearch/?limit=200000
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Agreen1 [21.17795, -39.9611111, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1 exists.
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.019123934295534738 -0.6374644765178246
+8
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               0d4e1f80a493465084efdda951d2c231
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1823
+dec_center                                                   -39.9643
+caldat                                                     2021-06-06
+filesize                                                    316967040
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:20:58.225379Z
+dateobs_max                               2021-06-07T10:22:28.225379Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 81, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102058_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210606_20210607T102058_ooi_i_21.182_-39.964.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/0d4e1f80a493465084efdda951d2c231
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210606_20210607T102058_ooi_i_21.182_-39.964.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MDM3LCJqdGkiOiJkMDQyODA5MTU4YzA0MzMwOTQ5NDc3MmViNjA2MGY4OCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.daKKYTkaXUdcQDrCIAZLbtqsPZrgVqnoucdIVpbr6iw'}
+
+
+Read file with size=316,967,040 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210606_20210607T102058_ooi_i_21.182_-39.964.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               21481c8f20cac2f2e53b988d011982ab
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1835
+dec_center                                                   -39.9632
+caldat                                                     2021-06-06
+filesize                                                    317180160
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:17:01.605168Z
+dateobs_max                               2021-06-07T10:17:31.605168Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 208, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_101701_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210606_20210607T101701_ooi_g_21.184_-39.963.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/21481c8f20cac2f2e53b988d011982ab
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210606_20210607T101701_ooi_g_21.184_-39.963.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MDk2LCJqdGkiOiIxY2JjMDM5YTM0OGE0NWY2OWVlOTI4MGZjMWFhYmUyNCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.RdmuEaDsMa0KckimXflUbGFwTVW8MDhP4XD4n2e-Y1E'}
+
+
+Read file with size=317,180,160 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210606_20210607T101701_ooi_g_21.184_-39.963.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               358f0cffb3f37a9a42ac2fa58ec56b44
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1797
+dec_center                                                   -39.9602
+caldat                                                     2021-06-04
+filesize                                                    317517120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T10:10:04.584880Z
+dateobs_max                               2021-06-05T10:11:04.584880Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 343, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101004_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210604_20210605T101004_ooi_g_21.180_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/358f0cffb3f37a9a42ac2fa58ec56b44
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210604_20210605T101004_ooi_g_21.180_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MTMxLCJqdGkiOiJiNDEwNmI4ZGE1ZWM0NTEyYWM5ODE4NTA5MTcwYThiYyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.t5E0-xNYiqteeM8MqMoWikBs3dwqujZtVhQTJ-7PBGc'}
+
+
+Read file with size=317,517,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210604_20210605T101004_ooi_g_21.180_-39.960.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               86ecb28aca80350b95df298f05779ab2
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1825
+dec_center                                                   -39.9642
+caldat                                                     2021-06-06
+filesize                                                    316938240
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:19:00.189036Z
+dateobs_max                               2021-06-07T10:20:30.189036Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 873, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_101900_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210606_20210607T101900_ooi_i_21.183_-39.964.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/86ecb28aca80350b95df298f05779ab2
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210606_20210607T101900_ooi_i_21.183_-39.964.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MTg3LCJqdGkiOiI0MjFiYjVjOWMzMmE0OGIxODAzN2U3M2ZjNmMxZmFkZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.JseUlv11UFYIHpeKUHQ0kiA2nfWl0ghqiLKkn0l2SNo'}
+
+
+Read file with size=316,938,240 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210606_20210607T101900_ooi_i_21.183_-39.964.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               918e7ae16769cf6a0a5f127dce17a61c
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1796
+dec_center                                                   -39.9602
+caldat                                                     2021-06-04
+filesize                                                    317589120
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:17:35.372616Z
+dateobs_max                               2021-06-05T10:20:35.372616Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 946, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101735_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210604_20210605T101735_ooi_i_21.180_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/918e7ae16769cf6a0a5f127dce17a61c
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210604_20210605T101735_ooi_i_21.180_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MjI0LCJqdGkiOiIzMjQyZTM4NmUyMWI0ZTU1YTAyNDY2NWU0YTk3NzNjYyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.L1qhTzpRUYpokybqsEQ0Oc4qV6xGrhdk05BjTBXcojs'}
+
+
+Read file with size=317,589,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210604_20210605T101735_ooi_i_21.180_-39.960.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               ad0a8938f711099e0bb6651bd0342edc
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1822
+dec_center                                                   -39.9645
+caldat                                                     2021-06-06
+filesize                                                    317079360
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:18:01.384790Z
+dateobs_max                               2021-06-07T10:18:31.384790Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1146, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_101801_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210606_20210607T101801_ooi_g_21.182_-39.964.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/ad0a8938f711099e0bb6651bd0342edc
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210606_20210607T101801_ooi_g_21.182_-39.964.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MjgwLCJqdGkiOiJhMDI0ZmI3ZDU1OTU0NTg4OWQ1YzQ4NmM1MTFlODQyNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.23AeNkuBblVe_JBaAnkWbx8KSbDWJtuBF9UJ2ebaEGA'}
+
+
+Read file with size=317,079,360 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210606_20210607T101801_ooi_g_21.182_-39.964.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b20c83bc27be969ccf4bc6b31cac0a91
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1819
+dec_center                                                    -39.958
+caldat                                                     2021-06-04
+filesize                                                    317514240
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T09:44:45.857173Z
+dateobs_max                               2021-06-05T09:45:45.857173Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1173, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_094445_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210604_20210605T094445_ooi_g_21.182_-39.958.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b20c83bc27be969ccf4bc6b31cac0a91
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210604_20210605T094445_ooi_g_21.182_-39.958.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4MzE0LCJqdGkiOiJlNmI0YjdhNzBiZTQ0MDlkYTM4ZTA1ZWQzYmU0MzUxZiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.lnk_JgPVHUhIh4gdlzbc6IvmJqwIc3Q-oKmfXvkRYG4'}
+
+
+Read file with size=317,514,240 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210604_20210605T094445_ooi_g_21.182_-39.958.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               e1c644d0499c63afdbedde04c3f4041e
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     21.1786
+dec_center                                                   -39.9601
+caldat                                                     2021-06-04
+filesize                                                    317606400
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T09:52:30.414665Z
+dateobs_max                               2021-06-05T09:55:30.414665Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1457, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_095230_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen1_20210604_20210605T095230_ooi_i_21.179_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/e1c644d0499c63afdbedde04c3f4041e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen1_20210604_20210605T095230_ooi_i_21.179_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NDAxLCJqdGkiOiI3ZTYxNjcyY2U0ZmM0MWRhOWZiZGY1OWFlMDhkNjI0NSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.szS-ynMae0zr4mjQSIelpug9Zlx0si_tIswPbEPgS1Y'}
+
+
+Read file with size=317,606,400 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen1/CPinstcal_GRB210605Agreen1_20210604_20210605T095230_ooi_i_21.179_-39.960.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Agreen2 [18.9162908, -42.1027781, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2 exists.
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.009115259838225953 -0.30384199460753175
+8
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               046a18faedd676b7de3660f010dcbcc5
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                      18.918
+dec_center                                                   -42.1019
+caldat                                                     2021-06-04
+filesize                                                    317496960
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T10:11:33.738217Z
+dateobs_max                               2021-06-05T10:12:33.738217Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 32, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101133_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210604_20210605T101133_ooi_g_18.918_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/046a18faedd676b7de3660f010dcbcc5
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210604_20210605T101133_ooi_g_18.918_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NDQ0LCJqdGkiOiI0NDExMjAxYWZkY2Q0Y2VlYWY2OGVlNjMyMDRkYmU3ZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.1YBvbGlJPWB1E7jhNaIFGkMnevB0vIG3rcPyiUCvrS4'}
+
+
+Read file with size=317,496,960 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210604_20210605T101133_ooi_g_18.918_-42.102.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               3f289a82978d291ff5ee1d5d57d99b89
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9204
+dec_center                                                   -42.1065
+caldat                                                     2021-06-06
+filesize                                                    317113920
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:22:56.650544Z
+dateobs_max                               2021-06-07T10:23:26.650544Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 418, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102256_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210606_20210607T102256_ooi_g_18.920_-42.106.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/3f289a82978d291ff5ee1d5d57d99b89
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210606_20210607T102256_ooi_g_18.920_-42.106.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NDc3LCJqdGkiOiI4NGE1ZjIyM2MwMDk0ZGQ0OTFiM2RjOTFlYzY4MzJkOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Lu0d36RIPCl8ZxLlEy6yaYekEBvbCOEDQ-aiZjEp9TI'}
+
+
+Read file with size=317,113,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210606_20210607T102256_ooi_g_18.920_-42.106.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               604d1306a925c0c2666364d89266b2a6
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9203
+dec_center                                                   -42.1064
+caldat                                                     2021-06-06
+filesize                                                    316992960
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:24:53.557942Z
+dateobs_max                               2021-06-07T10:26:23.557942Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 638, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102453_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210606_20210607T102453_ooi_i_18.920_-42.106.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/604d1306a925c0c2666364d89266b2a6
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210606_20210607T102453_ooi_i_18.920_-42.106.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NTA3LCJqdGkiOiJjMGUzN2U2NzA1MjQ0OWUzYmU2NWNjYzIzNDMzOTlkZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.fJjy4ix_BZzlAmE7hnYgqqKODlYg7m6uPA_fxz5Q0_E'}
+
+
+Read file with size=316,992,960 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210606_20210607T102453_ooi_i_18.920_-42.106.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               6c348f668991c4897c22a68bd8152b5f
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9185
+dec_center                                                   -42.1011
+caldat                                                     2021-06-04
+filesize                                                    317494080
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T09:46:16.767704Z
+dateobs_max                               2021-06-05T09:47:16.767704Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 707, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_094616_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210604_20210605T094616_ooi_g_18.919_-42.101.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/6c348f668991c4897c22a68bd8152b5f
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210604_20210605T094616_ooi_g_18.919_-42.101.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NTU5LCJqdGkiOiIwZTc4YzIxYjBjM2U0NjBjODU0NjMyOTdlZTk5MGYzNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.dbiAG86-8IFTQKHWvzcw1kOwZ5scw7uWyCmEnQE027c'}
+
+
+Read file with size=317,494,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210604_20210605T094616_ooi_g_18.919_-42.101.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b14366b26b09e41c87b69943409200a7
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9175
+dec_center                                                   -42.1018
+caldat                                                     2021-06-04
+filesize                                                    317664000
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T09:56:00.171080Z
+dateobs_max                               2021-06-05T09:59:00.171080Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1166, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_095600_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210604_20210605T095600_ooi_i_18.917_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b14366b26b09e41c87b69943409200a7
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210604_20210605T095600_ooi_i_18.917_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NTkxLCJqdGkiOiJmYzlkZGIwYTY5NDY0N2M1YjYzZTYxZWMxNDNhMzkxMiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.SM9_3rNHCO7ldq8_izS8ZstFJJZ3GZeBnNHDetnz9KY'}
+
+
+Read file with size=317,664,000 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210604_20210605T095600_ooi_i_18.917_-42.102.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b540bb5175f75c923465a05f70a35e3e
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9177
+dec_center                                                   -42.1018
+caldat                                                     2021-06-04
+filesize                                                    317603520
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:21:04.733291Z
+dateobs_max                               2021-06-05T10:24:04.733291Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1196, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_102104_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210604_20210605T102104_ooi_i_18.918_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b540bb5175f75c923465a05f70a35e3e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210604_20210605T102104_ooi_i_18.918_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4Njg0LCJqdGkiOiIyMzJlOTI5NzgwODY0NjEyYTkzMzZkYjBhNzNhY2QxZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.oZrxB8UIUK9E9W3yDiWOi6H6e5Qah9Jg1sZvSXCPUQA'}
+
+
+Read file with size=317,603,520 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210604_20210605T102104_ooi_i_18.918_-42.102.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               cdc4466da7ae630949dcf7d254b45da8
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9204
+dec_center                                                   -42.1063
+caldat                                                     2021-06-06
+filesize                                                    317079360
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:23:54.642718Z
+dateobs_max                               2021-06-07T10:24:24.642718Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1340, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102354_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210606_20210607T102354_ooi_g_18.920_-42.106.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/cdc4466da7ae630949dcf7d254b45da8
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210606_20210607T102354_ooi_g_18.920_-42.106.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4NzcxLCJqdGkiOiIxNmRmOTk2NDdlZTQ0NGZkYjBiMWJmODg2MDcxOTNhOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.g-pXbiuaqiWZCZSaWm2F72XDJ3K1WZ5xavTSZAiuZPM'}
+
+
+Read file with size=317,079,360 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210606_20210607T102354_ooi_g_18.920_-42.106.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               d639dd91d6cfbba8b2b24285e6a63ce4
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     18.9208
+dec_center                                                   -42.1073
+caldat                                                     2021-06-06
+filesize                                                    316941120
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:26:53.601033Z
+dateobs_max                               2021-06-07T10:28:23.601033Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1389, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102653_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen2_20210606_20210607T102653_ooi_i_18.921_-42.107.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/d639dd91d6cfbba8b2b24285e6a63ce4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen2_20210606_20210607T102653_ooi_i_18.921_-42.107.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4ODA0LCJqdGkiOiIzZGZmYzk0ZDhiZjI0NDZhOTc2MWVkYWRiMTcwZDZkYiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Rt8Q6lthzzVvutfd55flWj2286z4EBievNtOzrQzyEw'}
+
+
+Read file with size=316,941,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen2/CPinstcal_GRB210605Agreen2_20210606_20210607T102653_ooi_i_18.921_-42.107.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Agreen3 [23.2478742, -40.675, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.029589071860462855 -0.9863023953487619
+8
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               071ce86ceb6944fe5af3cfa9a2e0e168
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2489
+dec_center                                                   -40.6742
+caldat                                                     2021-06-04
+filesize                                                    317813760
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T09:59:34.563087Z
+dateobs_max                               2021-06-05T10:02:34.563087Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 46, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_095934_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210604_20210605T095934_ooi_i_23.249_-40.674.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/071ce86ceb6944fe5af3cfa9a2e0e168
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210604_20210605T095934_ooi_i_23.249_-40.674.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4ODM1LCJqdGkiOiIyYzBkMjg3ZTVhNzY0Y2Y1YmRhODJlNzQyNTNiYzIxNiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Jj4F6xYsFSkfK6qOYrol9wAiQVL5c90EFuCGkF577zM'}
+
+
+Read file with size=317,813,760 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210604_20210605T095934_ooi_i_23.249_-40.674.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               3283eef02d8c8bd96f5fddf3a5ff37ca
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2479
+dec_center                                                    -40.675
+caldat                                                     2021-06-06
+filesize                                                    316768320
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:32:52.198976Z
+dateobs_max                               2021-06-07T10:34:22.198976Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 321, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_103252_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210606_20210607T103252_ooi_i_23.248_-40.675.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/3283eef02d8c8bd96f5fddf3a5ff37ca
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210606_20210607T103252_ooi_i_23.248_-40.675.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4ODY0LCJqdGkiOiI1ZjI3ZWM3MGU3ZjM0Zjk5OTczZWRiYmRiNWU2OTk4YSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.lOOMqeUqA3L8l_3Zr3VM4Pp74wRZhernuY_T_nDbm3A'}
+
+
+Read file with size=316,768,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210606_20210607T103252_ooi_i_23.248_-40.675.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               4232fefb02d4553d4f192d3e6ad840ab
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2526
+dec_center                                                   -40.6794
+caldat                                                     2021-06-06
+filesize                                                    316918080
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-07T10:30:54.672036Z
+dateobs_max                               2021-06-07T10:32:24.672036Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 438, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_103054_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210606_20210607T103054_ooi_i_23.253_-40.679.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/4232fefb02d4553d4f192d3e6ad840ab
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210606_20210607T103054_ooi_i_23.253_-40.679.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4ODkzLCJqdGkiOiI5ZWMxMWQ5ZWRlZDg0NDYyOGU3NTA3NDBkNTM2MDBjOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.orUXYlPc4bBubfcU0423ncp0KlXUcHaQ2Fh98ee8wWI'}
+
+
+Read file with size=316,918,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210606_20210607T103054_ooi_i_23.253_-40.679.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               8a087f0d1abd6ef259ba6bc0db59615a
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2503
+dec_center                                                   -40.6732
+caldat                                                     2021-06-04
+filesize                                                    317580480
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T09:47:50.198828Z
+dateobs_max                               2021-06-05T09:48:50.198828Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 891, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_094750_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210604_20210605T094750_ooi_g_23.250_-40.673.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/8a087f0d1abd6ef259ba6bc0db59615a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210604_20210605T094750_ooi_g_23.250_-40.673.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4OTI1LCJqdGkiOiIxOWNiMjQzZTdiNDE0ZWE2OTUwZDQ3ZmZjNzYyMTY0OSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.MmjLN5iUOZrEfXOTDzWNeWdsMoWRDgfdzVTwr8qquwc'}
+
+
+Read file with size=317,580,480 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210604_20210605T094750_ooi_g_23.250_-40.673.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               aa8daada643c534995b26579f08447ab
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2479
+dec_center                                                    -40.675
+caldat                                                     2021-06-06
+filesize                                                    316728000
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:29:56.668746Z
+dateobs_max                               2021-06-07T10:30:26.668746Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1129, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102956_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210606_20210607T102956_ooi_g_23.248_-40.675.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/aa8daada643c534995b26579f08447ab
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210606_20210607T102956_ooi_g_23.248_-40.675.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA4OTU3LCJqdGkiOiJkNDk4OThmNDQ3MGE0NTU1ODc5YjgzYmY4OGU1MzUxMCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.4clzyu9yLBlXzUgu-LpDsiHXZ8P3NP5fqIipInoG370'}
+
+
+Read file with size=316,728,000 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210606_20210607T102956_ooi_g_23.248_-40.675.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               d07a3b9cbd18aa3357fd76fd83305465
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2503
+dec_center                                                   -40.6741
+caldat                                                     2021-06-04
+filesize                                                    317566080
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T10:13:07.200904Z
+dateobs_max                               2021-06-05T10:14:07.200904Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1352, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101307_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210604_20210605T101307_ooi_g_23.250_-40.674.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/d07a3b9cbd18aa3357fd76fd83305465
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210604_20210605T101307_ooi_g_23.250_-40.674.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MDIyLCJqdGkiOiIzMTg2YTk1NTZjMzU0MzA4OTRkZDM2MmE2YzRjNmI2NCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.X2QKI_G5hKiiPi4l294ANL7baS7mxU9GzlOOnZIqZRE'}
+
+
+Read file with size=317,566,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210604_20210605T101307_ooi_g_23.250_-40.674.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f6a84875c8f3cb22b82d932e9edf9c81
+archive_filename    /net/archive/pipe/20210606/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2479
+dec_center                                                    -40.675
+caldat                                                     2021-06-06
+filesize                                                    316756800
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-07T10:28:57.079282Z
+dateobs_max                               2021-06-07T10:29:27.079282Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1584, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210606/ct4m/2020B-0253/c4d_210607_102857_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210606_20210607T102857_ooi_g_23.248_-40.675.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f6a84875c8f3cb22b82d932e9edf9c81
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210606_20210607T102857_ooi_g_23.248_-40.675.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MDg3LCJqdGkiOiIxNzVkZTBlNGM2YzM0ZGFiYTc1MjIxNmRkZmYyZWY1ZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.s2ZavSV0bWCZkIavFjEsWRxvy3g0hjkXjLNGMcPJCms'}
+
+
+Read file with size=316,756,800 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210606_20210607T102857_ooi_g_23.248_-40.675.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f77e9ebaaa9832a5e392fbd54d3372a4
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     23.2495
+dec_center                                                   -40.6736
+caldat                                                     2021-06-04
+filesize                                                    317638080
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:24:37.929872Z
+dateobs_max                               2021-06-05T10:27:37.929872Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1587, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_102437_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen3_20210604_20210605T102437_ooi_i_23.250_-40.674.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f77e9ebaaa9832a5e392fbd54d3372a4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen3_20210604_20210605T102437_ooi_i_23.250_-40.674.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MTI3LCJqdGkiOiI1MDBmYzk4NWJlYzM0NGZhOThlM2ZiNWY4NTVmYTQwYyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.OY3DOV52lkYtmuRJHXpoMcaJe7j6GzG3gm9lRbyksNg'}
+
+
+Read file with size=317,638,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen3/CPinstcal_GRB210605Agreen3_20210604_20210605T102437_ooi_i_23.250_-40.674.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Agreen4 [19.3151779, -39.9611111, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen4 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.019123934295534738 -0.6374644765178246
+4
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               372c8b090c2dca19d626098e354a8f27
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     19.3157
+dec_center                                                   -39.9602
+caldat                                                     2021-06-04
+filesize                                                    317698560
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:28:09.745493Z
+dateobs_max                               2021-06-05T10:31:09.745493Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 359, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_102809_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen4_20210604_20210605T102809_ooi_i_19.316_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/372c8b090c2dca19d626098e354a8f27
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen4_20210604_20210605T102809_ooi_i_19.316_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MTU4LCJqdGkiOiI1YWNlMGZiNjE2MjE0NzgyYmVhNjkyMzkzOGQ0ZmJkZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.pH7-ymRo0Nz3OduDveNz4iW9unjW_ktUMfdIZ9i6jN4'}
+
+
+Read file with size=317,698,560 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen4/CPinstcal_GRB210605Agreen4_20210604_20210605T102809_ooi_i_19.316_-39.960.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               77d949d65d46eab8440ab2b1feace4f2
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     19.3171
+dec_center                                                   -39.9599
+caldat                                                     2021-06-04
+filesize                                                    317450880
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T10:14:38.659918Z
+dateobs_max                               2021-06-05T10:15:38.659918Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 783, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101438_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen4_20210604_20210605T101438_ooi_g_19.317_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/77d949d65d46eab8440ab2b1feace4f2
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen4_20210604_20210605T101438_ooi_g_19.317_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MTkwLCJqdGkiOiI0MTM2OWNjM2RmMDU0YTVkODJhMmNkNTRmNmViNTg1YiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.XW4Eq6vKhrv1ozY_AvCyVNCoauhQEaEC-lYTTxB3BAU'}
+
+
+Read file with size=317,450,880 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen4/CPinstcal_GRB210605Agreen4_20210604_20210605T101438_ooi_g_19.317_-39.960.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               cbfb83f6557008539a5737d0fea74704
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     19.3154
+dec_center                                                   -39.9596
+caldat                                                     2021-06-04
+filesize                                                    317995200
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:03:06.569764Z
+dateobs_max                               2021-06-05T10:06:06.569764Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1329, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_100306_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen4_20210604_20210605T100306_ooi_i_19.315_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/cbfb83f6557008539a5737d0fea74704
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen4_20210604_20210605T100306_ooi_i_19.315_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MjIwLCJqdGkiOiJkM2JhYmNlZGVlNTA0N2U5ODQ0MWY1OWYxMzA1YjBhMyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.auJHUkafEgj5QqhMoN7tUkJ8Zph-3kgt_5oqsYeMXW4'}
+
+
+Read file with size=317,995,200 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen4/CPinstcal_GRB210605Agreen4_20210604_20210605T100306_ooi_i_19.315_-39.960.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               e702e1c95678b0e8047773e58b2c0de7
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     19.3163
+dec_center                                                   -39.9597
+caldat                                                     2021-06-04
+filesize                                                    317445120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T09:49:31.912513Z
+dateobs_max                               2021-06-05T09:50:31.912513Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1488, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_094931_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen4_20210604_20210605T094931_ooi_g_19.316_-39.960.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/e702e1c95678b0e8047773e58b2c0de7
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen4_20210604_20210605T094931_ooi_g_19.316_-39.960.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5Mjc3LCJqdGkiOiIzNWY1OGE5MTk0OWM0NjgyYjZiNmQzYjYwYWMyNmUwZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Na8m5bm2isT6oB5MNR338X-nRJzmS_bGWXmA6OtjDkY'}
+
+
+Read file with size=317,445,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen4/CPinstcal_GRB210605Agreen4_20210604_20210605T094931_ooi_g_19.316_-39.960.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Agreen5 [20.8406671, -42.1027781, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen5 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.009115259838225953 -0.30384199460753175
+4
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               77b03e889d6ae52d2f3c2da5df3746b3
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8424
+dec_center                                                   -42.1024
+caldat                                                     2021-06-04
+filesize                                                    317738880
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:06:35.944628Z
+dateobs_max                               2021-06-05T10:09:35.944628Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 780, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_100635_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen5_20210604_20210605T100635_ooi_i_20.842_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/77b03e889d6ae52d2f3c2da5df3746b3
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen5_20210604_20210605T100635_ooi_i_20.842_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MzE2LCJqdGkiOiIxZTNjMTVkYmQ1NmI0ZjVmOTc4ZjE2YTNmNWNlZDhhOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.2jWRyAA2JNyjYWcMBqdskxYy5nnivwJwmqL4ckT9ddc'}
+
+
+Read file with size=317,738,880 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen5/CPinstcal_GRB210605Agreen5_20210604_20210605T100635_ooi_i_20.842_-42.102.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               7cdb7c7e970926d08edf91f5d2c8dfcc
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8418
+dec_center                                                   -42.1014
+caldat                                                     2021-06-04
+filesize                                                    317534400
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T10:16:07.070966Z
+dateobs_max                               2021-06-05T10:17:07.070966Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 815, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_101607_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen5_20210604_20210605T101607_ooi_g_20.842_-42.101.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/7cdb7c7e970926d08edf91f5d2c8dfcc
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen5_20210604_20210605T101607_ooi_g_20.842_-42.101.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5MzYzLCJqdGkiOiJhNjA4NTUxYzEzOTg0MzNkYmU0YjI0NWI4NDI0YjZhZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.r6pJFar2zoHqDVgJVoxMzadItBUAcde74zqbRaMo4TU'}
+
+
+Read file with size=317,534,400 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen5/CPinstcal_GRB210605Agreen5_20210604_20210605T101607_ooi_g_20.842_-42.101.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               ecd7e9c222d903ae59cc5301c24f0a80
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                      20.842
+dec_center                                                   -42.1016
+caldat                                                     2021-06-04
+filesize                                                    317629440
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          180
+dateobs_min                               2021-06-05T10:31:38.256202Z
+dateobs_max                               2021-06-05T10:34:38.256202Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1525, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_103138_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen5_20210604_20210605T103138_ooi_i_20.842_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/ecd7e9c222d903ae59cc5301c24f0a80
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen5_20210604_20210605T103138_ooi_i_20.842_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5Mzk4LCJqdGkiOiJlYmI3M2M5ODA0Nzg0NTlmODNjMDU1MWYzMGFiZGU2NyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.CmNXu2uqyC8jqTNkRyyE7m5L-fcGIzrr7H85FBTD99g'}
+
+
+Read file with size=317,629,440 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen5/CPinstcal_GRB210605Agreen5_20210604_20210605T103138_ooi_i_20.842_-42.102.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               fda596ab02fd7912869a92a4683da38c
+archive_filename    /net/archive/pipe/20210604/ct4m/2020B-0253/c4d...
+ra_center                                                      20.842
+dec_center                                                   -42.1019
+caldat                                                     2021-06-04
+filesize                                                    317543040
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           60
+dateobs_min                               2021-06-05T09:51:02.388360Z
+dateobs_max                               2021-06-05T09:52:02.388360Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1631, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210604/ct4m/2020B-0253/c4d_210605_095102_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Agreen5_20210604_20210605T095102_ooi_g_20.842_-42.102.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/fda596ab02fd7912869a92a4683da38c
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Agreen5_20210604_20210605T095102_ooi_g_20.842_-42.102.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NDM1LCJqdGkiOiIxOWEwOTkxZTAxZmU0NWU0YjA3NDQ4Y2Y2MjQ1MDJlZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Fg626MdT-2QQqg8YlK5_UPCco4Eq682aRcCVVGeZJBM'}
+
+
+Read file with size=317,543,040 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Agreen5/CPinstcal_GRB210605Agreen5_20210604_20210605T095102_ooi_g_20.842_-42.102.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Apink1 [17.76721, -41.388889, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink1 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.025604161604650923 -0.8534720534883642
+4
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               4d2d5c268dbd0246e95faf43e9057e7f
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                      17.771
+dec_center                                                   -41.3918
+caldat                                                     2021-06-05
+filesize                                                    317401920
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-06T10:11:45.176436Z
+dateobs_max                               2021-06-06T10:12:15.176436Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 502, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101145_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink1_20210605_20210606T101145_ooi_g_17.771_-41.392.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/4d2d5c268dbd0246e95faf43e9057e7f
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink1_20210605_20210606T101145_ooi_g_17.771_-41.392.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NDkzLCJqdGkiOiJlZTZiM2FkN2JjNmE0ZmU2YjE2ZWM5YWI0YWI3MDEzYiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.gvz9zLyOSGNKQjLWWoGdTy5ABE3q15Fw1mZD0dUMPBU'}
+
+
+Read file with size=317,401,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink1/CPinstcal_GRB210605Apink1_20210605_20210606T101145_ooi_g_17.771_-41.392.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               9da281733cba18f71949e3965703305a
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                       17.77
+dec_center                                                   -41.3916
+caldat                                                     2021-06-05
+filesize                                                    317491200
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-06T10:12:44.350620Z
+dateobs_max                               2021-06-06T10:14:14.350620Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1033, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101244_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink1_20210605_20210606T101244_ooi_i_17.770_-41.392.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/9da281733cba18f71949e3965703305a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink1_20210605_20210606T101244_ooi_i_17.770_-41.392.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NTI3LCJqdGkiOiIzYjE2MTcwYmRjMDc0ZTVmYTJiZjUzNGY2YTZiYTQ2YiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.A8zVfqZFDjC1XqXF4_-oKqhOcfwvJg07RaR_5Z41-HE'}
+
+
+Read file with size=317,491,200 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink1/CPinstcal_GRB210605Apink1_20210605_20210606T101244_ooi_i_17.770_-41.392.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               c126e290933cf1646d078feae011794f
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                      17.772
+dec_center                                                   -41.3906
+caldat                                                     2021-06-05
+filesize                                                    317465280
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-06T10:10:45.355339Z
+dateobs_max                               2021-06-06T10:11:15.355339Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1266, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101045_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink1_20210605_20210606T101045_ooi_g_17.772_-41.391.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/c126e290933cf1646d078feae011794f
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink1_20210605_20210606T101045_ooi_g_17.772_-41.391.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NTYyLCJqdGkiOiJiZDViN2U4N2NhZGY0Y2YyYTFmNDY4YmE2NjljMTYwNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.o2z4VfSrVxObwEblxhVMgduKjqCSfd634nvjjiDXnag'}
+
+
+Read file with size=317,465,280 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink1/CPinstcal_GRB210605Apink1_20210605_20210606T101045_ooi_g_17.772_-41.391.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               c611423336d512a4651c189a1bbee267
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                     17.7704
+dec_center                                                   -41.3921
+caldat                                                     2021-06-05
+filesize                                                    317545920
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-06T10:14:42.896886Z
+dateobs_max                               2021-06-06T10:16:12.896886Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1293, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101442_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink1_20210605_20210606T101442_ooi_i_17.770_-41.392.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/c611423336d512a4651c189a1bbee267
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink1_20210605_20210606T101442_ooi_i_17.770_-41.392.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NTkyLCJqdGkiOiIyZTMwYWVlOTNhNjk0OGM1OGY3YzdhMzFjYjNlNGFhMCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.V2PJ5SeenlVjDU1sJ7RY6dxprM4kM7wZEedHdsUNovA'}
+
+
+Read file with size=317,545,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink1/CPinstcal_GRB210605Apink1_20210605_20210606T101442_ooi_i_17.770_-41.392.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Apink2 [21.8494173, -42.0508599, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink2 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.010586219973372455 -0.3528739991124152
+4
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               dd21bd96cb63497361762ac2b77c67da
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                     21.8526
+dec_center                                                   -42.0547
+caldat                                                     2021-06-05
+filesize                                                    317494080
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-06T10:18:45.280309Z
+dateobs_max                               2021-06-06T10:20:15.280309Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1426, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101845_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink2_20210605_20210606T101845_ooi_i_21.853_-42.055.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/dd21bd96cb63497361762ac2b77c67da
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink2_20210605_20210606T101845_ooi_i_21.853_-42.055.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NjQ0LCJqdGkiOiI4MjUwNTJhZWVhMjA0NmIxYTZhOWQ0OTM4ZjcxMzcxNCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.k6_s6hCRsefTCtftXbyFEbUmWPHwjxf7mz3ezECiY6E'}
+
+
+Read file with size=317,494,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink2/CPinstcal_GRB210605Apink2_20210605_20210606T101845_ooi_i_21.853_-42.055.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               e28fce322be4110a2536e6a7f3ac9d41
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                     21.8517
+dec_center                                                   -42.0534
+caldat                                                     2021-06-05
+filesize                                                    317416320
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-06T10:16:46.336715Z
+dateobs_max                               2021-06-06T10:17:16.336715Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1463, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101646_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink2_20210605_20210606T101646_ooi_g_21.852_-42.053.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/e28fce322be4110a2536e6a7f3ac9d41
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink2_20210605_20210606T101646_ooi_g_21.852_-42.053.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5Njg5LCJqdGkiOiI1MzlhYmU5NTVlOTY0YzkwOGViNTBiMzczNmM0OTk1OSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.N_sVPz5zxoGphJSH3WdAuu1YsnanTX0iXq32J018oWA'}
+
+
+Read file with size=317,416,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink2/CPinstcal_GRB210605Apink2_20210605_20210606T101646_ooi_g_21.852_-42.053.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               e924c9afa240b2950987b16770f1edca
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                      21.852
+dec_center                                                   -42.0543
+caldat                                                     2021-06-05
+filesize                                                    317387520
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-06T10:17:45.917984Z
+dateobs_max                               2021-06-06T10:18:15.917984Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1502, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_101745_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink2_20210605_20210606T101745_ooi_g_21.852_-42.054.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/e924c9afa240b2950987b16770f1edca
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink2_20210605_20210606T101745_ooi_g_21.852_-42.054.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5NzQ1LCJqdGkiOiJmZGRkOGY5YWMwN2Y0ZDg5OGJhODEyZGMzMWQ5YWMyZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.7SkowhStjBGYuoSXsYWRMs5bdLEvUvZDULOaKc8_u-U'}
+
+
+Read file with size=317,387,520 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink2/CPinstcal_GRB210605Apink2_20210605_20210606T101745_ooi_g_21.852_-42.054.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f4b4a8a6e173c112e701959934ef81ee
+archive_filename    /net/archive/pipe/20210605/ct4m/2020B-0253/c4d...
+ra_center                                                      21.852
+dec_center                                                   -42.0543
+caldat                                                     2021-06-05
+filesize                                                    317669760
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                           90
+dateobs_min                               2021-06-06T10:20:44.061091Z
+dateobs_max                               2021-06-06T10:22:14.061091Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1568, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210605/ct4m/2020B-0253/c4d_210606_102044_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605Apink2_20210605_20210606T102044_ooi_i_21.852_-42.054.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f4b4a8a6e173c112e701959934ef81ee
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605Apink2_20210605_20210606T102044_ooi_i_21.852_-42.054.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5ODAwLCJqdGkiOiIyYjc0MDQwMTIyMWM0Yjc3OTliNzRjMzUzYjE3MzJjNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ._Q0nshUDpMOTY0x44KpS3zx8Ot-Sm6MwDoNRZzW_rYM'}
+
+
+Read file with size=317,669,760 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink2/CPinstcal_GRB210605Apink2_20210605_20210606T102044_ooi_i_21.852_-42.054.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Apink3 [17.3120418, -39.2597284, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink3 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.00030538782166834996 0.010179594055611666
+0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Apink4 [22.6885, -38.533333, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink4 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.020152644980730036 0.6717548326910012
+0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605Apink5 [19.950664, -38.533333, 0.03]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605Apink5 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.03 0.020152644980730036 0.6717548326910012
+0
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605A5 [24.2083333, -48.75, 1.0]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5 exists.
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  1.0 0.05528566706461281 0.05528566706461281
+12
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               2b0b8fa5d0ed33f727b8d9cc19ea7a9f
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                      24.167
+dec_center                                                   -48.7177
+caldat                                                     2021-06-09
+filesize                                                    317649600
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:46:30.615385Z
+dateobs_max                               2021-06-10T09:47:00.615385Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 270, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_094630_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210609_20210610T094630_ooi_g_24.167_-48.718.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/2b0b8fa5d0ed33f727b8d9cc19ea7a9f
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210609_20210610T094630_ooi_g_24.167_-48.718.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5ODM0LCJqdGkiOiIzN2RmY2U5ZTE5OTE0ZTI4OTc4MGI2OTYzNDc1OGFmOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.bm4qQksfxja4eSg_RTSkDmuG3CPRzS58c7rmbxcT1Iw'}
+
+
+Read file with size=317,649,600 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210609_20210610T094630_ooi_g_24.167_-48.718.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               302a23c3bae67ced432269fda3c8e12a
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     24.2079
+dec_center                                                   -48.7504
+caldat                                                     2021-06-07
+filesize                                                    317664000
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T09:58:08.564477Z
+dateobs_max                               2021-06-08T10:00:08.564477Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 305, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095808_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210607_20210608T095808_ooi_i_24.208_-48.750.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/302a23c3bae67ced432269fda3c8e12a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210607_20210608T095808_ooi_i_24.208_-48.750.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5ODY3LCJqdGkiOiJhZmJkNTU2NTgxMGE0OThkODc0ODZhNmFlYjdmNWMyMyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.U_jslzSxSlvXNHgJkj0Smsb76Nao0ZInbuH1_ilr35o'}
+
+
+Read file with size=317,664,000 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210607_20210608T095808_ooi_i_24.208_-48.750.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               52f651a6be7cce96a4342c017f4c6676
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     24.2192
+dec_center                                                   -48.7499
+caldat                                                     2021-06-09
+filesize                                                    317586240
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:45:31.593536Z
+dateobs_max                               2021-06-10T09:46:01.593536Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 543, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_094531_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210609_20210610T094531_ooi_g_24.219_-48.750.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/52f651a6be7cce96a4342c017f4c6676
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210609_20210610T094531_ooi_g_24.219_-48.750.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5OTE0LCJqdGkiOiI0NTgxZDExMjZhYjg0Y2YwYTFiZTAyNzY3OTQxN2I3ZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.RpiCgnMn4cMGbJayrwsRDrdrQObv-6eaclaRS7lYiCY'}
+
+
+Read file with size=317,586,240 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210609_20210610T094531_ooi_g_24.219_-48.750.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               5dc976349ffb58e683ea2b565bde1114
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     24.1633
+dec_center                                                   -48.7194
+caldat                                                     2021-06-09
+filesize                                                    317882880
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T09:58:03.644120Z
+dateobs_max                               2021-06-10T10:00:03.644120Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 622, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095803_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210609_20210610T095803_ooi_i_24.163_-48.719.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/5dc976349ffb58e683ea2b565bde1114
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210609_20210610T095803_ooi_i_24.163_-48.719.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5OTQ2LCJqdGkiOiJlMGJiMmFkNTJlOGY0NTNhODNjZDAwNjM3NjgxZTZmZiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.SINwzNFxTa-Klbs5sw5cE_krCKabMUWS1v8ODj-Q4mY'}
+
+
+Read file with size=317,882,880 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210609_20210610T095803_ooi_i_24.163_-48.719.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               807ef49409ab85e7787c0c63f75d4222
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     24.1635
+dec_center                                                   -48.7199
+caldat                                                     2021-06-08
+filesize                                                    317759040
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:45:49.151452Z
+dateobs_max                               2021-06-09T09:46:19.151452Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 837, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094549_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210608_20210609T094549_ooi_g_24.164_-48.720.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/807ef49409ab85e7787c0c63f75d4222
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210608_20210609T094549_ooi_g_24.164_-48.720.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjA5OTc3LCJqdGkiOiI5Yjc1NGFlM2RiY2I0MzQyYjZhYzg0NmVhM2IyYTg3OCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.EWVgh2rlntWzUOGfGQZVze3ZoI_-O7Z1Lfw9MeT0OdM'}
+
+
+Read file with size=317,759,040 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210608_20210609T094549_ooi_g_24.164_-48.720.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               917ae8c95a7d1ff24703941805e302f4
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     24.2113
+dec_center                                                   -48.7477
+caldat                                                     2021-06-07
+filesize                                                    317684160
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:48:03.836471Z
+dateobs_max                               2021-06-08T09:48:33.836471Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 943, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_094803_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210607_20210608T094803_ooi_g_24.211_-48.748.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/917ae8c95a7d1ff24703941805e302f4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210607_20210608T094803_ooi_g_24.211_-48.748.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMDA5LCJqdGkiOiJlMzYwMTlmZmVhY2Q0ODM4OGNjNTdjZjhjZjEyYWQyZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.PfmfblBURcdOqpx_Nqvd0mZBW-myEEjwm1vfaz7APv8'}
+
+
+Read file with size=317,684,160 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210607_20210608T094803_ooi_g_24.211_-48.748.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               a4a54415add2a13817eea23eeac7a4d4
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     24.1616
+dec_center                                                   -48.7194
+caldat                                                     2021-06-08
+filesize                                                    317741760
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T09:57:29.204106Z
+dateobs_max                               2021-06-09T09:59:29.204106Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1088, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095729_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210608_20210609T095729_ooi_i_24.162_-48.719.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/a4a54415add2a13817eea23eeac7a4d4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210608_20210609T095729_ooi_i_24.162_-48.719.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMDU4LCJqdGkiOiI3MjllZGI5YzhhY2U0ZjI3YTQ5MGVjZWVlZGIyOTM5MiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.9s4ZB0EvxvfzU0DXF8Ow14CCyLGkfqZ8-hsLbxBuRIU'}
+
+
+Read file with size=317,741,760 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210608_20210609T095729_ooi_i_24.162_-48.719.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               a82791d006af5b6779ff21d460830eef
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      24.213
+dec_center                                                    -48.753
+caldat                                                     2021-06-08
+filesize                                                    317689920
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T09:55:01.412043Z
+dateobs_max                               2021-06-09T09:57:01.412043Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1107, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095501_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210608_20210609T095501_ooi_i_24.213_-48.753.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/a82791d006af5b6779ff21d460830eef
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210608_20210609T095501_ooi_i_24.213_-48.753.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMDk0LCJqdGkiOiIyZDk2MTA5ZWExNTk0ODNiOTY2YjQ2Mjg5Y2VmNGRkNiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.tTn-iyXb_Puf3UHUvs6f_NdxphnU2R2lMejPJBvu66M'}
+
+
+Read file with size=317,689,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210608_20210609T095501_ooi_i_24.213_-48.753.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b9e052f4e14322ca5a20b922c7462349
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     24.1604
+dec_center                                                   -48.7155
+caldat                                                     2021-06-07
+filesize                                                    317640960
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:49:03.251170Z
+dateobs_max                               2021-06-08T09:49:33.251170Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1226, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_094903_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210607_20210608T094903_ooi_g_24.160_-48.716.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b9e052f4e14322ca5a20b922c7462349
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210607_20210608T094903_ooi_g_24.160_-48.716.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMTI0LCJqdGkiOiJiNjE1OGI1MjBhZDc0YzdjODNlYzI5M2Q1NTFiODVjMiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.IYqGIIOxV180_4ZJPOqof75QnIIN9qWQfyjAOkcCjGA'}
+
+
+Read file with size=317,640,960 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210607_20210608T094903_ooi_g_24.160_-48.716.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               eee863010d8fd6f02f87b2ebb9896743
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     24.2126
+dec_center                                                   -48.7532
+caldat                                                     2021-06-09
+filesize                                                    317689920
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T09:55:33.598956Z
+dateobs_max                               2021-06-10T09:57:33.598956Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1537, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095533_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210609_20210610T095533_ooi_i_24.213_-48.753.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/eee863010d8fd6f02f87b2ebb9896743
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210609_20210610T095533_ooi_i_24.213_-48.753.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMTc5LCJqdGkiOiJjYjRkMzBjZTU2MzE0ODdiOTcyNmIyYmNiMWNkNDg3YyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.ZEmBbfDXNxP8OZTyUJWWJ20nFn0MvGXb9Q8siNLkPYM'}
+
+
+Read file with size=317,689,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210609_20210610T095533_ooi_i_24.213_-48.753.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f1edd5fc5a332def7312a821b5d95885
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                      24.158
+dec_center                                                   -48.7167
+caldat                                                     2021-06-07
+filesize                                                    317712960
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:00:37.686101Z
+dateobs_max                               2021-06-08T10:02:37.686101Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1553, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_100037_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210607_20210608T100037_ooi_i_24.158_-48.717.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f1edd5fc5a332def7312a821b5d95885
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210607_20210608T100037_ooi_i_24.158_-48.717.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMjQwLCJqdGkiOiJlZDEzNTZlZjc0ZmE0ODFjYWQ2MmQyYTI0NzdkZmRjOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.rXT3CVZzEkVYSo5CmeIJpF2CNJAHlm7UToLyqp_Ge5Q'}
+
+
+Read file with size=317,712,960 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210607_20210608T100037_ooi_i_24.158_-48.717.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               fb57ac1faf51cb168f7bccc868a7ac93
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      24.216
+dec_center                                                   -48.7519
+caldat                                                     2021-06-08
+filesize                                                    317733120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:44:48.731384Z
+dateobs_max                               2021-06-09T09:45:18.731384Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1619, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094448_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A5_20210608_20210609T094448_ooi_g_24.216_-48.752.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/fb57ac1faf51cb168f7bccc868a7ac93
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A5_20210608_20210609T094448_ooi_g_24.216_-48.752.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMjg3LCJqdGkiOiI2OWI4MTZjMWUyZDA0NDZhYTVhODQ4MDI2YTMwOTMzZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.jJEMtCzJAYd5Av6geKjMejbw0Pfqty4Y35JW9WYWKD8'}
+
+
+Read file with size=317,733,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A5/CPinstcal_GRB210605A5_20210608_20210609T094448_ooi_g_24.216_-48.752.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605A4 [23.0416667, -47.0944444, 0.05]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.05 0.049978325770895726 -0.9995665154179144
+12
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               23a7d6c92958722c27d9c749c4d9f0e8
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     22.9934
+dec_center                                                   -47.0617
+caldat                                                     2021-06-07
+filesize                                                    317750400
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:05:34.530748Z
+dateobs_max                               2021-06-08T10:07:34.530748Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 223, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_100534_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210607_20210608T100534_ooi_i_22.993_-47.062.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/23a7d6c92958722c27d9c749c4d9f0e8
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210607_20210608T100534_ooi_i_22.993_-47.062.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwMzQ4LCJqdGkiOiIzZjcwYmNiNWNmMTY0Njc4YmE2YTBhMTNkOGIwNTcyZiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.jth4l6k2uBXyvCDfF8MPzdYl1fSrMVBCNHLIhrpSUPM'}
+
+
+Read file with size=317,750,400 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210607_20210608T100534_ooi_i_22.993_-47.062.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               3ce009b4d363a7993400e3aaec72269a
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0508
+dec_center                                                   -47.0956
+caldat                                                     2021-06-09
+filesize                                                    317551680
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:47:29.525813Z
+dateobs_max                               2021-06-10T09:47:59.525813Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 400, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_094729_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210609_20210610T094729_ooi_g_23.051_-47.096.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/3ce009b4d363a7993400e3aaec72269a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210609_20210610T094729_ooi_g_23.051_-47.096.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNDA0LCJqdGkiOiJhM2I3ODdhZWFhYmI0M2YyYTlmZTEzYmZkYzgyZjMwOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.8EzS0NEZq9amIq39Ka7Ck3DE9httE0SxKINETIlKgV4'}
+
+
+Read file with size=317,551,680 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210609_20210610T094729_ooi_g_23.051_-47.096.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               437de9abfbc6c118c1e90906ad47f43a
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0008
+dec_center                                                    -47.063
+caldat                                                     2021-06-09
+filesize                                                    317730240
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:48:30.023132Z
+dateobs_max                               2021-06-10T09:49:00.023132Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 446, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_094830_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210609_20210610T094830_ooi_g_23.001_-47.063.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/437de9abfbc6c118c1e90906ad47f43a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210609_20210610T094830_ooi_g_23.001_-47.063.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNDM3LCJqdGkiOiJhMjliMGI2ZDM3NGI0YzVhODliOTFlYTFhNTFkODM1OSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.O05bnj3raxzmf48GXByOrJkSZB4oSNZTzImPUc7RtD4'}
+
+
+Read file with size=317,730,240 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210609_20210610T094830_ooi_g_23.001_-47.063.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               49587a32fc18ee5917cc9175386e7e53
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0429
+dec_center                                                   -47.0947
+caldat                                                     2021-06-07
+filesize                                                    317724480
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:03:06.355510Z
+dateobs_max                               2021-06-08T10:05:06.355510Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 483, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_100306_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210607_20210608T100306_ooi_i_23.043_-47.095.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/49587a32fc18ee5917cc9175386e7e53
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210607_20210608T100306_ooi_i_23.043_-47.095.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNDc4LCJqdGkiOiJmYjZhYjJhNjcxOTI0ZWNiOTg5NWNhMTg1NTkzYzY2YiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.B2CR6-hQ38f1d7R7AcWI4yJQhzIMQiBRc34yp6h87JI'}
+
+
+Read file with size=317,724,480 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210607_20210608T100306_ooi_i_23.043_-47.095.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               579b8e36510f5902cfddf0ea59005372
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0477
+dec_center                                                   -47.0977
+caldat                                                     2021-06-09
+filesize                                                    317782080
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:00:33.078848Z
+dateobs_max                               2021-06-10T10:02:33.078848Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 572, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_100033_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210609_20210610T100033_ooi_i_23.048_-47.098.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/579b8e36510f5902cfddf0ea59005372
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210609_20210610T100033_ooi_i_23.048_-47.098.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNTEwLCJqdGkiOiIzOGRiYTc0MjU5MDU0MTUzYTM1ZGZhMWYzMWFkOTUxNyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.B3XVk7_rX9NYb9OPDPzDFuTbDhJ1UPPkPRZNRRjEr3M'}
+
+
+Read file with size=317,782,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210609_20210610T100033_ooi_i_23.048_-47.098.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               5d49ed6b3a28e2d2e27d6edad2458d9c
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      23.046
+dec_center                                                   -47.0971
+caldat                                                     2021-06-08
+filesize                                                    317776320
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T09:59:58.236958Z
+dateobs_max                               2021-06-09T10:01:58.236958Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 617, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095958_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210608_20210609T095958_ooi_i_23.046_-47.097.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/5d49ed6b3a28e2d2e27d6edad2458d9c
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210608_20210609T095958_ooi_i_23.046_-47.097.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNTM5LCJqdGkiOiIzZWMyOTQ4ZDNmMmM0ODliYmUyYThkNDA2YmRmYmFkOCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.RkH990bRNBulZzPtmed9bXzLUooznCYa-QTy_P7H_u8'}
+
+
+Read file with size=317,776,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210608_20210609T095958_ooi_i_23.046_-47.097.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               72ed62046f1a7d34fd4ce6343af9f550
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0433
+dec_center                                                   -47.0936
+caldat                                                     2021-06-07
+filesize                                                    317661120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:50:01.712697Z
+dateobs_max                               2021-06-08T09:50:31.712697Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 741, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095001_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210607_20210608T095001_ooi_g_23.043_-47.094.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/72ed62046f1a7d34fd4ce6343af9f550
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210607_20210608T095001_ooi_g_23.043_-47.094.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNjA4LCJqdGkiOiJkZjUyN2Y3ODc2OGU0NTA5OTUwODBlMTk0OTAxNzQwZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.kGFGngZSMAam4vNPrFbeMTewsSbnMI9ASnzuJX12yOo'}
+
+
+Read file with size=317,661,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210607_20210608T095001_ooi_g_23.043_-47.094.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               97fc0360462ec96ae737914492379fda
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     22.9969
+dec_center                                                    -47.064
+caldat                                                     2021-06-08
+filesize                                                    317770560
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:02:25.961388Z
+dateobs_max                               2021-06-09T10:04:25.961388Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1000, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_100225_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210608_20210609T100225_ooi_i_22.997_-47.064.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/97fc0360462ec96ae737914492379fda
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210608_20210609T100225_ooi_i_22.997_-47.064.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNjM4LCJqdGkiOiJmNmIwYTg5NDUyNGQ0YTQ5YWYzYzQ5YmNjNDk5OGY0MyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.gHXIooMX1rrp1U-uv5AEYJ05YZL_-1ApQvs8E-OSBvc'}
+
+
+Read file with size=317,770,560 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210608_20210609T100225_ooi_i_22.997_-47.064.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               acfe27bbaca627574a5135f85d234899
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     22.9967
+dec_center                                                   -47.0637
+caldat                                                     2021-06-08
+filesize                                                    317799360
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:47:47.145103Z
+dateobs_max                               2021-06-09T09:48:17.145103Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1144, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094747_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210608_20210609T094747_ooi_g_22.997_-47.064.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/acfe27bbaca627574a5135f85d234899
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210608_20210609T094747_ooi_g_22.997_-47.064.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNjk5LCJqdGkiOiJhYWZlYWQxMjg4YmU0MmU4YjZjZGExZDUwNjllNmE0NyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.pMudgcKqUqgDSsbsuS-7oN6VHcqUiBEeLF4ZVpz-8Do'}
+
+
+Read file with size=317,799,360 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210608_20210609T094747_ooi_g_22.997_-47.064.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               bdb3584eb6ae15b4c31ca05861aeea0e
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     22.9985
+dec_center                                                   -47.0639
+caldat                                                     2021-06-09
+filesize                                                    317854080
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:03:02.946825Z
+dateobs_max                               2021-06-10T10:05:02.946825Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1242, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_100302_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210609_20210610T100302_ooi_i_22.998_-47.064.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/bdb3584eb6ae15b4c31ca05861aeea0e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210609_20210610T100302_ooi_i_22.998_-47.064.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNzMyLCJqdGkiOiIwNDE2ZDUwMjNlNjE0N2JhODFmMmVjZTgwODA1MTlhZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.qUQYJzQn_XPnIUBTL24Ry35-_CktMmhwCl_dl3JWWvg'}
+
+
+Read file with size=317,854,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210609_20210610T100302_ooi_i_22.998_-47.064.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f44c4de95699097a56f32aca8b162ab1
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     22.9947
+dec_center                                                   -47.0603
+caldat                                                     2021-06-07
+filesize                                                    317580480
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:51:00.347627Z
+dateobs_max                               2021-06-08T09:51:30.347627Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1563, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095100_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210607_20210608T095100_ooi_g_22.995_-47.060.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f44c4de95699097a56f32aca8b162ab1
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210607_20210608T095100_ooi_g_22.995_-47.060.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwNzgyLCJqdGkiOiI1YTliM2U4OTA4NjE0YmYxYjkwZTYzZGUyMTRhYTAzYiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.fSoMBLJXfStTRv3HQLalM2cRCuiga7wxXeXVVoHeEGI'}
+
+
+Read file with size=317,580,480 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210607_20210608T095100_ooi_g_22.995_-47.060.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               f45bed5baf54e4aa5b8ed564c82575a2
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     23.0469
+dec_center                                                   -47.0977
+caldat                                                     2021-06-08
+filesize                                                    317761920
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:46:48.056708Z
+dateobs_max                               2021-06-09T09:47:18.056708Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1564, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094648_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A4_20210608_20210609T094648_ooi_g_23.047_-47.098.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/f45bed5baf54e4aa5b8ed564c82575a2
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A4_20210608_20210609T094648_ooi_g_23.047_-47.098.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwODE0LCJqdGkiOiIwZmM0OGI5YWExMzM0ZTRlOGQ4MWI3NWQzNDFmNDM0MSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.IPiu8Ex193pzFQUZkcTjB4k54euknpCeZO86jtBnk7k'}
+
+
+Read file with size=317,761,920 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A4/CPinstcal_GRB210605A4_20210608_20210609T094648_ooi_g_23.047_-47.098.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605A3 [21.9583333, -45.4583333, 0.6]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.6 0.056771054609029946 0.09461842434838325
+12
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               0368cf3c29ae4d2cc2fd6f4dc2ce84e0
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9164
+dec_center                                                   -45.4288
+caldat                                                     2021-06-09
+filesize                                                    317687040
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:07:59.596403Z
+dateobs_max                               2021-06-10T10:09:59.596403Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 26, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_100759_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210609_20210610T100759_ooi_i_21.916_-45.429.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/0368cf3c29ae4d2cc2fd6f4dc2ce84e0
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210609_20210610T100759_ooi_i_21.916_-45.429.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwODYyLCJqdGkiOiIwNzI3ZTJjY2EzMTM0OGQ5YmUyMmMyMTM3Njc1MjM2OSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.07Sbzh_5j3NGSvojJyQ92MA4aH8ngYxh9_g_uIkbyOA'}
+
+
+Read file with size=317,687,040 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210609_20210610T100759_ooi_i_21.916_-45.429.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               26d39ae89c14659607beb1b6c9b593b6
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                      21.965
+dec_center                                                   -45.4595
+caldat                                                     2021-06-09
+filesize                                                    317586240
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:49:28.719225Z
+dateobs_max                               2021-06-10T09:49:58.719225Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 241, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_094928_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210609_20210610T094928_ooi_g_21.965_-45.460.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/26d39ae89c14659607beb1b6c9b593b6
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210609_20210610T094928_ooi_g_21.965_-45.460.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwOTA4LCJqdGkiOiJlYzRkOWM1MGNhMzA0N2VhYjM2MzA0ZDc3NDY3NWMzMSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.C_b7bqtEV6YvS3v5o_JzigfisUmUCJ7XBQHN9_LQvxk'}
+
+
+Read file with size=317,586,240 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210609_20210610T094928_ooi_g_21.965_-45.460.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               2c821a88bb6535a0c2ebb42b37582400
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9618
+dec_center                                                   -45.4614
+caldat                                                     2021-06-08
+filesize                                                    317727360
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:48:47.130948Z
+dateobs_max                               2021-06-09T09:49:17.130948Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 280, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094847_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210608_20210609T094847_ooi_g_21.962_-45.461.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/2c821a88bb6535a0c2ebb42b37582400
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210608_20210609T094847_ooi_g_21.962_-45.461.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEwOTYyLCJqdGkiOiI1ZDVhYjI3NWYxNjE0MDc3YjYwYzhlNDI1NzJlYjU1MiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.kQsG-WqRJIzS-mDt--9W8gFmgSqC-daQ_6H2LNc7f5o'}
+
+
+Read file with size=317,727,360 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210608_20210609T094847_ooi_g_21.962_-45.461.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               33b5ab7fcba1a79c97c7699258561226
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9591
+dec_center                                                   -45.4589
+caldat                                                     2021-06-07
+filesize                                                    317790720
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:08:05.744041Z
+dateobs_max                               2021-06-08T10:10:05.744041Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 330, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_100805_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210607_20210608T100805_ooi_i_21.959_-45.459.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/33b5ab7fcba1a79c97c7699258561226
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210607_20210608T100805_ooi_i_21.959_-45.459.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMDI4LCJqdGkiOiIxOThiNzAzMmU4NjQ0NDdhYmMzOTkxYWZjZTkyMDI0MCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.PtPZ9vH-EdBj7pTV3MdlPua_D5UYUx8D5A5BfUoODPY'}
+
+
+Read file with size=317,790,720 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210607_20210608T100805_ooi_i_21.959_-45.459.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               3508fda50ea9c61a7809d5a89946fb74
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9639
+dec_center                                                   -45.4614
+caldat                                                     2021-06-09
+filesize                                                    317635200
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:05:30.913812Z
+dateobs_max                               2021-06-10T10:07:30.913812Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 337, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_100530_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210609_20210610T100530_ooi_i_21.964_-45.461.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/3508fda50ea9c61a7809d5a89946fb74
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210609_20210610T100530_ooi_i_21.964_-45.461.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMDU4LCJqdGkiOiIwNjg0ZDMwZGYxZmU0MjUxODMzM2QyOTNjNGI2ZjMyYSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.dNZv9fEjIy-SY8Bx4rGb5UHWYkVFZJxXnIumrm_Mp_I'}
+
+
+Read file with size=317,635,200 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210609_20210610T100530_ooi_i_21.964_-45.461.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               37b6071f1aaac33670b9bb389c66a708
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9145
+dec_center                                                    -45.429
+caldat                                                     2021-06-08
+filesize                                                    317661120
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:07:24.899704Z
+dateobs_max                               2021-06-09T10:09:24.899704Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 366, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_100724_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210608_20210609T100724_ooi_i_21.915_-45.429.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/37b6071f1aaac33670b9bb389c66a708
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210608_20210609T100724_ooi_i_21.915_-45.429.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMDk1LCJqdGkiOiIwOTIxY2IxYTA2Yzc0MzQzYWIwZDNmNDk4M2UzMmQ3ZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Vh97z4CFZkWCwX1aqj2XPoiom6clUADhN_0xU3hlyQU'}
+
+
+Read file with size=317,661,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210608_20210609T100724_ooi_i_21.915_-45.429.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               5d44d5ee4af126bfb245f868d53f2ea1
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      21.963
+dec_center                                                   -45.4612
+caldat                                                     2021-06-08
+filesize                                                    317632320
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:04:55.320846Z
+dateobs_max                               2021-06-09T10:06:55.320846Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 616, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_100455_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210608_20210609T100455_ooi_i_21.963_-45.461.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/5d44d5ee4af126bfb245f868d53f2ea1
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210608_20210609T100455_ooi_i_21.963_-45.461.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMTI3LCJqdGkiOiIwYTFkNjlmNTE5OGM0NGY2YWRhMjVlZWM1M2Y2MTA1ZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.7rgrKltpkETiXMyRY1VB0dBFvPYhzHTfW_vqEa2Ag4w'}
+
+
+Read file with size=317,632,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210608_20210609T100455_ooi_i_21.963_-45.461.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               93c50ee2208ec8531c6c8b6f88e93311
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9589
+dec_center                                                   -45.4578
+caldat                                                     2021-06-07
+filesize                                                    317692800
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:51:59.257312Z
+dateobs_max                               2021-06-08T09:52:29.257312Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 965, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095159_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210607_20210608T095159_ooi_g_21.959_-45.458.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/93c50ee2208ec8531c6c8b6f88e93311
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210607_20210608T095159_ooi_g_21.959_-45.458.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMTU2LCJqdGkiOiI2MTM4MTQyOThkMDc0ODU5YWFlZGY3YWE4MWE1ZjQyYiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.BHtHIdFaSM2cZ-b6IOvhS4lyQPG9uCLDkEhqtmUfc0c'}
+
+
+Read file with size=317,692,800 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210607_20210608T095159_ooi_g_21.959_-45.458.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               96e494d1e1d6691e066c03ab9834bd20
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      21.914
+dec_center                                                   -45.4283
+caldat                                                     2021-06-08
+filesize                                                    317715840
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:49:46.419172Z
+dateobs_max                               2021-06-09T09:50:16.419172Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 990, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_094946_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210608_20210609T094946_ooi_g_21.914_-45.428.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/96e494d1e1d6691e066c03ab9834bd20
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210608_20210609T094946_ooi_g_21.914_-45.428.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMTkyLCJqdGkiOiI5ZmVkNzU1ZjJkMTU0OWI4OGVhMjQzMzVhMjhlMmQzMiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.ka5gfKlW0wa7CTyoI8YpyVBHIRIrgS1NBuorL4IqRw8'}
+
+
+Read file with size=317,715,840 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210608_20210609T094946_ooi_g_21.914_-45.428.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b3c206c759a4c3b218db36056499630a
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9171
+dec_center                                                   -45.4276
+caldat                                                     2021-06-09
+filesize                                                    317707200
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:50:29.068508Z
+dateobs_max                               2021-06-10T09:50:59.068508Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1186, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095029_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210609_20210610T095029_ooi_g_21.917_-45.428.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b3c206c759a4c3b218db36056499630a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210609_20210610T095029_ooi_g_21.917_-45.428.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMjIzLCJqdGkiOiIxYTE2ZjBmN2EwODM0NTY4YTUyN2NiMzI0M2VjNzFkMSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.RS5xxOvFEmKd68BgvzNMaI2hwWj5AXlClmSd0wNOYdM'}
+
+
+Read file with size=317,707,200 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210609_20210610T095029_ooi_g_21.917_-45.428.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               cb30ca061a78731007ba2c844336ce92
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9106
+dec_center                                                   -45.4253
+caldat                                                     2021-06-07
+filesize                                                    317712960
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:10:33.993704Z
+dateobs_max                               2021-06-08T10:12:33.993704Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1320, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_101033_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210607_20210608T101033_ooi_i_21.911_-45.425.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/cb30ca061a78731007ba2c844336ce92
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210607_20210608T101033_ooi_i_21.911_-45.425.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMjYxLCJqdGkiOiIyNWVlMDlmMjlkN2I0MTQyOGIwMjcxZDRlZTU5OGE5MyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.ga79UT1Kw0VbUSbEM6dSPlgCuFXlK04CbXhEW6JvF_Y'}
+
+
+Read file with size=317,712,960 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210607_20210608T101033_ooi_i_21.911_-45.425.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               d44630346aabf5417f2285a51548bb24
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     21.9112
+dec_center                                                   -45.4249
+caldat                                                     2021-06-07
+filesize                                                    317566080
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:52:58.701109Z
+dateobs_max                               2021-06-08T09:53:28.701109Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1377, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095258_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A3_20210607_20210608T095258_ooi_g_21.911_-45.425.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/d44630346aabf5417f2285a51548bb24
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A3_20210607_20210608T095258_ooi_g_21.911_-45.425.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMzAwLCJqdGkiOiI2N2RmYTFkYzNjZmU0MWU4OTZkMDZiYTBiMzE2NjQzNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.EjvXr23cTla9xOxYkKljXaGocpXnD-FoJaeqyVqdc_k'}
+
+
+Read file with size=317,566,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A3/CPinstcal_GRB210605A3_20210607_20210608T095258_ooi_g_21.911_-45.425.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605A2 [20.9375, -43.8, 0.05]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.05 0.04917149197491417 0.9834298394982833
+12
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               017ee70641b69b1bb3295b2570b171bc
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                      20.937
+dec_center                                                   -43.8005
+caldat                                                     2021-06-07
+filesize                                                    317750400
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:13:01.817496Z
+dateobs_max                               2021-06-08T10:15:01.817496Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 11, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_101301_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210607_20210608T101301_ooi_i_20.937_-43.801.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/017ee70641b69b1bb3295b2570b171bc
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210607_20210608T101301_ooi_i_20.937_-43.801.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMzMxLCJqdGkiOiIyNzY2YjM2YWIwYmI0OTc2YThkNmU3YmVjYzk3MmMzZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.IjQfInk1WP8ZWEMPLAXfT-XBkpoNW3nDd6hT04tIbWU'}
+
+
+Read file with size=317,750,400 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210607_20210608T101301_ooi_i_20.937_-43.801.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               0c03c9130da185f685bad36f120d393e
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     20.9422
+dec_center                                                    -43.802
+caldat                                                     2021-06-09
+filesize                                                    317782080
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:51:29.062114Z
+dateobs_max                               2021-06-10T09:51:59.062114Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 74, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095129_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210609_20210610T095129_ooi_g_20.942_-43.802.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/0c03c9130da185f685bad36f120d393e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210609_20210610T095129_ooi_g_20.942_-43.802.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExMzY2LCJqdGkiOiJlMzlhNmFhYTdkNjY0ZDNmODQ1NDllM2U5Yjk3MzNiZiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.ZV756A5FYivLN4gOJez34oZ-htI1Zl1ITa9yBNjGYI4'}
+
+
+Read file with size=317,782,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210609_20210610T095129_ooi_g_20.942_-43.802.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               291c2d114e897b255d6747e00ee8d5da
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     20.9404
+dec_center                                                    -43.803
+caldat                                                     2021-06-08
+filesize                                                    318021120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:50:45.668739Z
+dateobs_max                               2021-06-09T09:51:15.668739Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 255, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095045_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210608_20210609T095045_ooi_g_20.940_-43.803.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/291c2d114e897b255d6747e00ee8d5da
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210608_20210609T095045_ooi_g_20.940_-43.803.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNDA4LCJqdGkiOiI1Njg5M2IwMzhhNmM0Mjg4OWIwYTEyZTJkZGZjZjU4YSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.e58CznLazLecSOJVKr63x7-TKT-hHGZkJjWr2VIcBgA'}
+
+
+Read file with size=318,021,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210608_20210609T095045_ooi_g_20.940_-43.803.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               3561395ae434bc198a5dac79e8f351bc
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8909
+dec_center                                                   -43.7674
+caldat                                                     2021-06-07
+filesize                                                    317661120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:54:56.282677Z
+dateobs_max                               2021-06-08T09:55:26.282677Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 341, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095456_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210607_20210608T095456_ooi_g_20.891_-43.767.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/3561395ae434bc198a5dac79e8f351bc
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210607_20210608T095456_ooi_g_20.891_-43.767.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNDYzLCJqdGkiOiJhZTA0NDE5ZjE4MDE0MDY3YTVlZDQxYjlmZDExMTNlZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.3msZyOHFT9-AWlUfaqb6zMXu3-djSGAKO1xWPFYS2fo'}
+
+
+Read file with size=317,661,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210607_20210608T095456_ooi_g_20.891_-43.767.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               51586f426641df6e417886ca4810d63c
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     20.9426
+dec_center                                                   -43.8039
+caldat                                                     2021-06-08
+filesize                                                    317704320
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:09:55.383580Z
+dateobs_max                               2021-06-09T10:11:55.383580Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 531, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_100955_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210608_20210609T100955_ooi_i_20.943_-43.804.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/51586f426641df6e417886ca4810d63c
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210608_20210609T100955_ooi_i_20.943_-43.804.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNDk1LCJqdGkiOiIwM2QwOWM2ZTAyZTM0NzAxOTkwMzA0OGIzY2MwOGU2MSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.7jbGVsRBnk2r7Dhuu62OkLqGI6LNRZgHdCOzTFhXKVI'}
+
+
+Read file with size=317,704,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210608_20210609T100955_ooi_i_20.943_-43.804.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               528726330514a0c583f45aaa8bd0877e
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      20.895
+dec_center                                                   -43.7693
+caldat                                                     2021-06-08
+filesize                                                    317911680
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:51:45.141932Z
+dateobs_max                               2021-06-09T09:52:15.141932Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 538, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095145_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210608_20210609T095145_ooi_g_20.895_-43.769.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/528726330514a0c583f45aaa8bd0877e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210608_20210609T095145_ooi_g_20.895_-43.769.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNTYzLCJqdGkiOiIzMGI4NzlhODAwMmE0Mzk4YjE2MGNjOGFiZDNkNzVjNCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.VzT76-I1Wd5lEIwuLwlbdJdSeIqfUIbNn7ABNqWBH-E'}
+
+
+Read file with size=317,911,680 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210608_20210609T095145_ooi_g_20.895_-43.769.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               5f1fb1c97ed657db51e0296a4a798623
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                      20.897
+dec_center                                                   -43.7701
+caldat                                                     2021-06-09
+filesize                                                    317828160
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:12:57.726885Z
+dateobs_max                               2021-06-10T10:14:57.726885Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 631, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_101257_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210609_20210610T101257_ooi_i_20.897_-43.770.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/5f1fb1c97ed657db51e0296a4a798623
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210609_20210610T101257_ooi_i_20.897_-43.770.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNjI4LCJqdGkiOiI0MTliOGQ0YzIxOGQ0NmVkYjE2MTRjZmEzNmViOGNlZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.VJ5Ln9wIkh0Z8GRpURl9uvhKsDpUu0NdNv6w5HFkw7s'}
+
+
+Read file with size=317,828,160 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210609_20210610T101257_ooi_i_20.897_-43.770.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               6d4369f1f0bf2121f15df5ac9b9ec062
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     20.9426
+dec_center                                                   -43.8028
+caldat                                                     2021-06-09
+filesize                                                    317736000
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:10:28.705965Z
+dateobs_max                               2021-06-10T10:12:28.705965Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 719, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_101028_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210609_20210610T101028_ooi_i_20.943_-43.803.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/6d4369f1f0bf2121f15df5ac9b9ec062
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210609_20210610T101028_ooi_i_20.943_-43.803.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNjcyLCJqdGkiOiI1MWFiNjJiY2QxZDI0MWJhYmJhMGYxZmZmZDY4YWEwMyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.8xj8t_b3SYyZ_UstW90R17DwNyf0kndqe0XguDhJwNM'}
+
+
+Read file with size=317,736,000 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210609_20210610T101028_ooi_i_20.943_-43.803.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               8bfb0c3bb40d4cc694cff5ab1c5b1ed4
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8949
+dec_center                                                   -43.7704
+caldat                                                     2021-06-08
+filesize                                                    317756160
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:12:24.001714Z
+dateobs_max                               2021-06-09T10:14:24.001714Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 899, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_101224_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210608_20210609T101224_ooi_i_20.895_-43.770.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/8bfb0c3bb40d4cc694cff5ab1c5b1ed4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210608_20210609T101224_ooi_i_20.895_-43.770.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNzA4LCJqdGkiOiJiYWJkNDVhZWI2NzA0OWI1YjQ5NjE4M2VjZGU0N2E3MSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.4tZzONb0A_T7goey03QdBzpbhp17daaEb_nZtDAjM5w'}
+
+
+Read file with size=317,756,160 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210608_20210609T101224_ooi_i_20.895_-43.770.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               93018becd44cd51d75c8f95a0e77014e
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     20.9378
+dec_center                                                   -43.7999
+caldat                                                     2021-06-07
+filesize                                                    317839680
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:53:56.483859Z
+dateobs_max                               2021-06-08T09:54:26.483859Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 958, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095356_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210607_20210608T095356_ooi_g_20.938_-43.800.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/93018becd44cd51d75c8f95a0e77014e
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210607_20210608T095356_ooi_g_20.938_-43.800.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNzM3LCJqdGkiOiI0MmIxNzk2ZTI3YmY0NmQzODY3NDc3YjBjZDE0NDU0MCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.hf4Ob32Phv6Si5zv7VZAxAijMHl_7H0t5aYJU1ttojc'}
+
+
+Read file with size=317,839,680 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210607_20210608T095356_ooi_g_20.938_-43.800.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               bf619cd654caff411c57d7ee669af25d
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8918
+dec_center                                                   -43.7669
+caldat                                                     2021-06-07
+filesize                                                    317715840
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:15:31.008900Z
+dateobs_max                               2021-06-08T10:17:31.008900Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1257, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_101531_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210607_20210608T101531_ooi_i_20.892_-43.767.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/bf619cd654caff411c57d7ee669af25d
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210607_20210608T101531_ooi_i_20.892_-43.767.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExNzczLCJqdGkiOiIyMjFhZTA3ZTRhZDE0Zjc0OTYxNjkwYzYzZWIwYjQ0NiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.dL_EsUynMJvxBlhpCMPsn9nkALk7JCxmADtuPLFoIUM'}
+
+
+Read file with size=317,715,840 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210607_20210608T101531_ooi_i_20.892_-43.767.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               eef8da198bd54fa6e1842ae360e98fe5
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     20.8962
+dec_center                                                   -43.7697
+caldat                                                     2021-06-09
+filesize                                                    317805120
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:52:28.066907Z
+dateobs_max                               2021-06-10T09:52:58.066907Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1538, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095228_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A2_20210609_20210610T095228_ooi_g_20.896_-43.770.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/eef8da198bd54fa6e1842ae360e98fe5
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A2_20210609_20210610T095228_ooi_g_20.896_-43.770.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExODA1LCJqdGkiOiI5YzBhZDRiMGM0NDU0NTNlOTViN2MxYzEwNGY2NTZjYSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.jgDw4LWFsIAm0CPWIKlxq5pQttZkxTK5_J4XxYHgULg'}
+
+
+Read file with size=317,805,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A2/CPinstcal_GRB210605A2_20210609_20210610T095228_ooi_g_20.896_-43.770.fits.fz
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Downloading data for new field:  GRB210605A1 [19.9791667, -42.175, 0.2]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+/fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1 -- directory made
+(dec_offset_allowance,RA_offset_allowance,np.cos(field_DEC):  0.2 0.04686045901385817 -0.23430229506929084
+18
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               17ae0dfaa3e7a754a23478b92626ea46
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9817
+dec_center                                                   -42.1778
+caldat                                                     2021-06-08
+filesize                                                    317672640
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:52:50.007065Z
+dateobs_max                               2021-06-09T09:53:20.007065Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 141, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095250_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T095250_ooi_g_19.982_-42.178.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/17ae0dfaa3e7a754a23478b92626ea46
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T095250_ooi_g_19.982_-42.178.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExODQzLCJqdGkiOiI0NjAzOTZkY2VhZjI0NWVlYmZmZmEzYjgxNGRjZTIzOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.HBOLpMiSynzLcuW4Dvaf1wrZ7OHt7lpQBKX_h9_3QDw'}
+
+
+Read file with size=317,672,640 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T095250_ooi_g_19.982_-42.178.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               1ae7984afd1a36d1cc40c14da4e031f1
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9838
+dec_center                                                   -42.1787
+caldat                                                     2021-06-08
+filesize                                                    317623680
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:14:52.326479Z
+dateobs_max                               2021-06-09T10:16:52.326479Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 165, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_101452_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T101452_ooi_i_19.984_-42.179.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/1ae7984afd1a36d1cc40c14da4e031f1
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T101452_ooi_i_19.984_-42.179.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExODc0LCJqdGkiOiI1MzJmODQ0ZTAzZWM0MDZlYTE5MmUxMDI5ZmE5MTczNyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.x6CAW9Ck9cComhWOeHgPO2JYl3JLJyMPszudR_UODKE'}
+
+
+Read file with size=317,623,680 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T101452_ooi_i_19.984_-42.179.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               28134db3c6eeda2c530127be1648bb41
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9387
+dec_center                                                   -42.1441
+caldat                                                     2021-06-08
+filesize                                                    317646720
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-09T10:24:18.935713Z
+dateobs_max                               2021-06-09T10:28:18.935713Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 249, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_102418_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T102418_ooi_z_19.939_-42.144.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/28134db3c6eeda2c530127be1648bb41
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T102418_ooi_z_19.939_-42.144.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExOTA0LCJqdGkiOiJhNGViNzViMTQ3ZWI0NjI2OTNlN2NhYjNhYjEzNDI4ZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ._0i_tO9bp1xZUXPq53Rwf8gMaKVRr5XRTmALZ-_UviA'}
+
+
+Read file with size=317,646,720 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T102418_ooi_z_19.939_-42.144.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               363265676a1d9bdb35df518861c75378
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9398
+dec_center                                                   -42.1446
+caldat                                                     2021-06-09
+filesize                                                    317574720
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:17:54.573851Z
+dateobs_max                               2021-06-10T10:19:54.573851Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 347, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_101754_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T101754_ooi_i_19.940_-42.145.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/363265676a1d9bdb35df518861c75378
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T101754_ooi_i_19.940_-42.145.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjExOTUwLCJqdGkiOiJkM2QwYzNlZTIzN2Y0ZGUxYTcyNWI0ZGI1NDQyMTRmOCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.tmUI7KLga8SG_kDU_TB9nhrGG0pubY8_1FqsWbQy_88'}
+
+
+Read file with size=317,574,720 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T101754_ooi_i_19.940_-42.145.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               36a13b599acff55d0e1195c3dbb694f7
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9836
+dec_center                                                   -42.1778
+caldat                                                     2021-06-09
+filesize                                                    317528640
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:53:26.001813Z
+dateobs_max                               2021-06-10T09:53:56.001813Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 351, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095326_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T095326_ooi_g_19.984_-42.178.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/36a13b599acff55d0e1195c3dbb694f7
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T095326_ooi_g_19.984_-42.178.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMDIxLCJqdGkiOiI2ZjkzYzVmMjAzYzM0ZjkzYWE0YmMxZjZmMmM2NTQzMiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.2zzgeYjv5ZeJ_FxFxnfagqnaODOavj6TQ8OmksnK86Q'}
+
+
+Read file with size=317,528,640 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T095326_ooi_g_19.984_-42.178.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               37401dc6b58d83c7d15f9d4872fb3fc4
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9826
+dec_center                                                   -42.1779
+caldat                                                     2021-06-08
+filesize                                                    317661120
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-09T10:19:48.544914Z
+dateobs_max                               2021-06-09T10:23:48.544914Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 361, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_101948_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T101948_ooi_z_19.983_-42.178.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/37401dc6b58d83c7d15f9d4872fb3fc4
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T101948_ooi_z_19.983_-42.178.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMDU2LCJqdGkiOiJiMzYzYzRjMmRmMWQ0YWI0YmVkNzkzNjJkNTQyMmYyMCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.q3V0A0YJ5_E2VEOsKh7Y2R-x_Oq2j8f0sqFPRv2twHc'}
+
+
+Read file with size=317,661,120 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T101948_ooi_z_19.983_-42.178.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               42ef0a97217d3569cc1b87da16ef0814
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                      19.934
+dec_center                                                   -42.1419
+caldat                                                     2021-06-07
+filesize                                                    317594880
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:20:27.600547Z
+dateobs_max                               2021-06-08T10:22:27.600547Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 442, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_102027_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T102027_ooi_i_19.934_-42.142.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/42ef0a97217d3569cc1b87da16ef0814
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T102027_ooi_i_19.934_-42.142.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMDg2LCJqdGkiOiI0YTBmOTRkNGM4MDA0YzRjYmViMWYwYTM3MzgyNDM3NiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.KQgzjgz6qYLPh2eZ5aOqguwAupo7hCIeye_kSp7T-5U'}
+
+
+Read file with size=317,594,880 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T102027_ooi_i_19.934_-42.142.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               60cf227c3b74295d48baf201793c0fce
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9846
+dec_center                                                    -42.178
+caldat                                                     2021-06-09
+filesize                                                    317750400
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-10T10:20:22.693702Z
+dateobs_max                               2021-06-10T10:24:22.693702Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 642, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_102022_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T102022_ooi_z_19.985_-42.178.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/60cf227c3b74295d48baf201793c0fce
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T102022_ooi_z_19.985_-42.178.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMTE1LCJqdGkiOiIyYThhMmIyMTRiZjk0MzgwYTA0M2QyODU4N2ZiYzU5NCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.W7d6SMD2DHXpxGHZds9aKhi7nJtPNSUC-XjvoFq342g'}
+
+
+Read file with size=317,750,400 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T102022_ooi_z_19.985_-42.178.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               73975fa81f88120f1784adaec2acd5ab
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      19.938
+dec_center                                                   -42.1449
+caldat                                                     2021-06-08
+filesize                                                    317592000
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-09T10:17:20.638225Z
+dateobs_max                               2021-06-09T10:19:20.638225Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 747, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_101720_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T101720_ooi_i_19.938_-42.145.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/73975fa81f88120f1784adaec2acd5ab
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T101720_ooi_i_19.938_-42.145.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMTQ0LCJqdGkiOiI2OTU1MGNkYjUzMTU0M2M4YTBkZjg4Nzg5MzE5MmE5OCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.Uv5Wj9kNIHo8Ytj0jLDyUAoJkQsJL-Exsfo3_82SHVQ'}
+
+
+Read file with size=317,592,000 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T101720_ooi_i_19.938_-42.145.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               83bf43a67e2f693d3c7b97ae52629ee2
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9338
+dec_center                                                   -42.1423
+caldat                                                     2021-06-07
+filesize                                                    317669760
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-08T10:27:24.002629Z
+dateobs_max                               2021-06-08T10:31:24.002629Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 859, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_102724_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T102724_ooi_z_19.934_-42.142.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/83bf43a67e2f693d3c7b97ae52629ee2
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T102724_ooi_z_19.934_-42.142.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMTgyLCJqdGkiOiI4M2ViOGIyOTU2MzM0YmVjOTk5NGUzMmNiODk5MmNkYyIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.1MQ1_g-S9SDVS9vhq7xVhh-8Bp0sQOA51hRexm7zCWs'}
+
+
+Read file with size=317,669,760 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T102724_ooi_z_19.934_-42.142.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               899cec0702b2ee688a3031abb9811672
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9786
+dec_center                                                   -42.1756
+caldat                                                     2021-06-07
+filesize                                                    317615040
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:55:56.727822Z
+dateobs_max                               2021-06-08T09:56:26.727822Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 887, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095556_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T095556_ooi_g_19.979_-42.176.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/899cec0702b2ee688a3031abb9811672
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T095556_ooi_g_19.979_-42.176.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMjEzLCJqdGkiOiJiMjI4ZDY4NjZlNjI0NDNlODUxN2Y5MDRmMDhmY2IxZiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.tkq3P88FmzUUed-k25Ad9Wy22k9gXwFx_6EPdXuzPgA'}
+
+
+Read file with size=317,615,040 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T095556_ooi_g_19.979_-42.176.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               91d3b6f7c2f862e591d27e142b2eca01
+archive_filename    /net/archive/pipe/20210608/ct4m/2020B-0253/c4d...
+ra_center                                                      19.938
+dec_center                                                   -42.1444
+caldat                                                     2021-06-08
+filesize                                                    317710080
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-09T09:53:49.777527Z
+dateobs_max                               2021-06-09T09:54:19.777527Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 949, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210608/ct4m/2020B-0253/c4d_210609_095349_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210608_20210609T095349_ooi_g_19.938_-42.144.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/91d3b6f7c2f862e591d27e142b2eca01
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210608_20210609T095349_ooi_g_19.938_-42.144.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMjQ5LCJqdGkiOiJkZTg3OTM3M2I4NDg0M2Q5YjMyZjVjM2ZhMTRiNTkwMSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.oH8_dAlRppTsYX3K4WHeWvuE5mzdGP3tIpuF1IcyztI'}
+
+
+Read file with size=317,710,080 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210608_20210609T095349_ooi_g_19.938_-42.144.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               9f466509be24f3790f48b665d02f5bcb
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9386
+dec_center                                                   -42.1439
+caldat                                                     2021-06-09
+filesize                                                    317643840
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-10T10:24:52.134877Z
+dateobs_max                               2021-06-10T10:28:52.134877Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1044, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_102452_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T102452_ooi_z_19.939_-42.144.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/9f466509be24f3790f48b665d02f5bcb
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T102452_ooi_z_19.939_-42.144.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMzA5LCJqdGkiOiIwNzA5NDZmMjdmMTU0YTJlYmI0Mjk4NWY1MzFhNDM3ZSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.zjAOO-AqvZ2HiheGRpPhbwpAJ6Mf0dfHW2DySxu4H5w'}
+
+
+Read file with size=317,643,840 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T102452_ooi_z_19.939_-42.144.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               a2aa40a325ac16339681bc9e773264a7
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9338
+dec_center                                                   -42.1423
+caldat                                                     2021-06-07
+filesize                                                    317560320
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-08T09:56:55.165938Z
+dateobs_max                               2021-06-08T09:57:25.165938Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1071, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_095655_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T095655_ooi_g_19.934_-42.142.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/a2aa40a325ac16339681bc9e773264a7
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T095655_ooi_g_19.934_-42.142.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMzQyLCJqdGkiOiIwYjU1YWY2NmI3MGE0MzcwYTE4NTQxNmZkNjQ4ZmJhOSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.jGd6D5bLThHAd827BVXLwOjcl7RhWmyUa2YWZfmfNsA'}
+
+
+Read file with size=317,560,320 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T095655_ooi_g_19.934_-42.142.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               aa21a874d3031a16095cbfd523e9b244
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                      19.979
+dec_center                                                   -42.1752
+caldat                                                     2021-06-07
+filesize                                                    317603520
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-08T10:17:59.132104Z
+dateobs_max                               2021-06-08T10:19:59.132104Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1126, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_101759_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T101759_ooi_i_19.979_-42.175.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/aa21a874d3031a16095cbfd523e9b244
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T101759_ooi_i_19.979_-42.175.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyMzg1LCJqdGkiOiI1NzdiNTc4N2JmMzI0M2YxYWYyNmE5MzI0MTdlYjU4ZCIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.uEmYxhaSdQAGsJ1S6RBEx_O4KYV9DMKkIXTPHHm_9Ao'}
+
+
+Read file with size=317,603,520 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T101759_ooi_i_19.979_-42.175.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               b6b1f61b14ade1ccbae46c5b74d7a0a2
+archive_filename    /net/archive/pipe/20210607/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9797
+dec_center                                                   -42.1752
+caldat                                                     2021-06-07
+filesize                                                    317643840
+ifilter                              z DECam SDSS c0004 9260.0 1520.0
+exposure                                                          240
+dateobs_min                               2021-06-08T10:22:55.730648Z
+dateobs_max                               2021-06-08T10:26:55.730648Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1206, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210607/ct4m/2020B-0253/c4d_210608_102255_ooi_z_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210607_20210608T102255_ooi_z_19.980_-42.175.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/b6b1f61b14ade1ccbae46c5b74d7a0a2
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210607_20210608T102255_ooi_z_19.980_-42.175.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyNDI1LCJqdGkiOiI2MDRhZGMxMmJkNjY0NmIzYTFlZTYzZmU3MGM4NWVlNSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.BbX7UzkCCrVuMieusZD8Qa5dblHdLK8heuTDiK7fP9k'}
+
+
+Read file with size=317,643,840 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210607_20210608T102255_ooi_z_19.980_-42.175.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               dcfe31a629a5bab7bb73a7b4ab61843a
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9395
+dec_center                                                   -42.1444
+caldat                                                     2021-06-09
+filesize                                                    317626560
+ifilter                              g DECam SDSS c0001 4720.0 1520.0
+exposure                                                           30
+dateobs_min                               2021-06-10T09:54:23.911224Z
+dateobs_max                               2021-06-10T09:54:53.911224Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1424, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_095423_ooi_g_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T095423_ooi_g_19.939_-42.144.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/dcfe31a629a5bab7bb73a7b4ab61843a
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T095423_ooi_g_19.939_-42.144.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyNDY4LCJqdGkiOiI0Njc2NDZhODc1Njc0NzhiYmY3ZTczNjJiNDEzYTk2MiIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.qzXo5dftKf4EU4p1_uMYWx8pEuNIhLL-0JPpWixDqcI'}
+
+
+Read file with size=317,626,560 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T095423_ooi_g_19.939_-42.144.fits.fz
+=================================
+WORKING ON DOWNLOADING A NEW FILE
+md5sum                               ef4697466061b8e0cf1b1f193b0759ed
+archive_filename    /net/archive/pipe/20210609/ct4m/2020B-0253/c4d...
+ra_center                                                     19.9846
+dec_center                                                   -42.1782
+caldat                                                     2021-06-09
+filesize                                                    317629440
+ifilter                              i DECam SDSS c0003 7835.0 1470.0
+exposure                                                          120
+dateobs_min                               2021-06-10T10:15:26.668263Z
+dateobs_max                               2021-06-10T10:17:26.668263Z
+url                 https://astroarchive.noirlab.edu/api/retrieve/...
+Name: 1540, dtype: object
+ 
+archive_filename:  /net/archive/pipe/20210609/ct4m/2020B-0253/c4d_210610_101526_ooi_i_v1.fits.fz
+ 
+Will save as:  CPinstcal_GRB210605A1_20210609_20210610T101526_ooi_i_19.985_-42.178.fits.fz
+tokurl=https://astroarchive.noirlab.edu/api/get_token/
+
+fileurl=https://astroarchive.noirlab.edu/api/retrieve/ef4697466061b8e0cf1b1f193b0759ed
+
+,,,,,,,,,,
+
+For CPinstcal_GRB210605A1_20210609_20210610T101526_ooi_i_19.985_-42.178.fits.fz:
+headers={'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0MjEyNTI3LCJqdGkiOiIyMjc5MWZiZWIyNmQ0ZDgyYjNjOTRhNzMyNDQ1MWI5YSIsInVzZXJfaWQiOjE5MywiZW1haWwiOiJqY29va2VAYXN0cm8uc3dpbi5lZHUuYXUifQ.cx3V4N7z_-dSSSGvcfOEJ2Zdb89uLrauCYOxBJFYMDA'}
+
+
+Read file with size=317,629,440 bytes
+Saved: /fred/oz100/NOAO_archive/KNTraP_Project/data_unpacked//GRB210605A1/CPinstcal_GRB210605A1_20210609_20210610T101526_ooi_i_19.985_-42.178.fits.fz
+
+#############################
+#############################
+#############################
+Elapsed seconds=4526.086635665037 on https://astroarchive.noirlab.edu
+Completed on: 2022-01-08 16:42:40.491132
