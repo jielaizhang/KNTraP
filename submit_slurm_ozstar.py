@@ -134,6 +134,7 @@ def submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
     # submit slurm script
     if do_not_submit == False:
         command = f'sbatch {slurm_script_path}'
+        print(f'Running: {command}')
         try:
             output = subprocess.check_output(['sbatch',slurm_script_path],shell=True)
             print(f'Ran: {command}')
