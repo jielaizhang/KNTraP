@@ -10,4 +10,8 @@ do
                 echo -------------
                 echo python submit_slurm_ozstar.py -v $fieldname $caldate $band $ext
                 python submit_slurm_ozstar.py -v $fieldname $caldate $band $ext
+            done # ext
+        done # band
+    done #caldate
+done #fieldname
 
