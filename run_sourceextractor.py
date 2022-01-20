@@ -97,9 +97,7 @@ def run_sourceExtractor(fitsfiles,spreadmodel=False,
             print('1a. Run Source Extractor')
             print('1b. Run PSFEx')
             print('2. Run Source Extractor with spread_model as a parameter output')
-        print('#####################################')
         print('###### RUNNING SOURCE EXTRACTOR #####')
-        print('#####################################\n')
 
     # Set Source Extractor verbose type
     if verbose:
@@ -123,10 +121,8 @@ def run_sourceExtractor(fitsfiles,spreadmodel=False,
 
         # Print separator
         if verbose:
-            print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
             print(f'Input {f}')
             print(f'Intended output {catalog_name}')
-            print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
         # Run Source Extractor then PSFEx
         if spreadmodel:
@@ -167,9 +163,8 @@ def run_sourceExtractor(fitsfiles,spreadmodel=False,
                             f'-SEEING_FWHM {fwhm} -DETECT_MINAREA {detect_minarea} -DETECT_THRESH {detect_thresh} '\
                             f'{f}'
             if verbose:
-                print('Currently running source extractor to output required catalog...')
-                print('=============================================')
-                print('Executing command: %s\n' % command)
+                print('Currently running source extractor to output required catalog by')
+                print('executing command: ',command)
             try:
                 rval = subprocess.run(command.split(), check=True)
                 catfiles.append(catalog_name)
