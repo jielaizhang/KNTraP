@@ -130,9 +130,9 @@ def write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
     just_created  = create_dir_ifnot(bash_script_dir)
     if debugmode:
         if just_created == True: 
-            print(f'DEBUG: {bash_script_dir} was just created: {exists_already}')
+            print(f'DEBUG: {bash_script_dir} was just created.')
         else:
-            print(f'DEBUG: {bash_script_dir} was already exists, so was not newly created.')
+            print(f'DEBUG: {bash_script_dir} already exists, so was not newly created.')
 
     # Write the bash script to file
     f = open(bash_script_path,'w')
