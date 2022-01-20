@@ -62,6 +62,8 @@ RESERVATION_LINE
 
 echo Slurm Job JOB_NAME start
 echo Job bash script is: JOB_BASH_SCRIPT
+echo Job .out is saved at: /PIPE_DATA_DIR/logs/ozstar/FIELDNAME/JOB_NAME.out
+echo Job .err is saved at: /PIPE_DATA_DIR/logs/ozstar/FIELDNAME/JOB_NAME.err
 echo `date`
 echo -------- --------
 bash JOB_BASH_SCRIPT
