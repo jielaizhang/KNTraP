@@ -64,34 +64,72 @@ ext=FITSEXTENSION
 # needs to be done for each CCD split out in #STEP1.
 # ===========================================================================
 
+echo kntrappipe bash script starting Using:
+echo src_dir       = ${src_dir}
+echo field         = ${field}
+echo ctio_caldate  = ${caldate}
+echo band          = ${band}
+echo ext           = ${ext}
+echo conda_env     = CONDA_ENV_NAME
+echo pipe_data_dir = PIPE_DATA_DIR
+
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "ALIGN template and science"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 #STEP2: align template and science image, output template_resamp.fits and science_resamp.fits
 # overall syntax: align_image --swarp swarp_loc -o save_in_this_dir template.fits science.fits
+echo "Execute: python ${src_dir}/align_image.py --swarp swarp -o data_outputs/${field}/${caldate} TEMPLATE_IMAGES/${field}_${band}_stacked_template.fits data_unpacked/${field}/${field}_${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.fits"
 python ${src_dir}/align_image.py --swarp swarp -o data_outputs/${field}/${caldate} TEMPLATE_IMAGES/${field}_${band}_stacked_template.fits data_unpacked/${field}/${field}_${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.fits
+echo "Execute: mv data_outputs/${field}/${caldate}/${field}_${band}_stacked_template.resamp.fits data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits"
 mv data_outputs/${field}/${caldate}/${field}_${band}_stacked_template.resamp.fits data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "SUBTRACT: science - template"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP3: subtract template and science image, output subtraction.fits
-# overall syntax: subtract_image --sextractor SE_loc template_resamp.fits and science_resamp.fits -s subtraction.fits d
+# overall syntax: subtract_image --sextractor SE_loc template_resamp.fits and science_resamp.fits -s subtraction.fits 
+echo "Execute: python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "SOURCE EXTRACT: template"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP4: source extract template image, output template.cat
 # overall syntax: run_sourceextractor -s SE_loc -p PSFEX_loc --options --savecats OUTPUT_DIR template.fits
+echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending TEMPLATE --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending TEMPLATE --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "SOURCE EXTRACT: science"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP5: source extract science image, output science.cat
 # overall syntax: run_sourceextractor -s SE_loc -p PSFEX_loc --options --savecats OUTPUT_DIR science.fits
+echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SCI --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate}  data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SCI --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate}  data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "SOURCE EXTRACT: subtraction image"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP6: source extract subtraction image, output subtraction.cat
 # overall syntax: run_sourceextractor -s SE_loc -p PSFEX_loc --options --savecats OUTPUT_DIR subtraction.fits
 # !!!! This step takes in the output from pre-step6 instead of what it used to take in.
+echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SUB --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SUB --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits 
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "INVERT subtraction image"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP7: invert the subtraction image , output inv_subtraction.fits
 # overall syntax: invert -o OUTPUT_DIR --options subtraction.fits
+echo "Execute: python ${src_dir}/invert_fits.py -o data_outputs/${field}/${caldate} --overwrite data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/invert_fits.py -o data_outputs/${field}/${caldate} --overwrite data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
 
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
+echo "SOURCE EXTRACT: inverted subtraction or sub_neg image"
+echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # STEP8: source extract inverted subtraction image, output inv_subtraction.cat
 # overall syntax: run_sourceextractor -s SE_loc -p PSFEX_loc --options --savecats OUTPUT_DIR subtraction.fits 
+echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending NEG --fwhm 1.1 --detect_minarea 8 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub_neg.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending NEG --fwhm 1.1 --detect_minarea 8 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub_neg.fits
 
 # below not edited yet
