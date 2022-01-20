@@ -72,7 +72,7 @@ echo `date`
 echo Slurm Job JOB_NAME done
 '''
 
-def submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
+def submit_slurm_ozstar(fieldname,ctio_caldate,filterband,fitsextension,
                                 kntrap_src_path='/fred/oz100/NOAO_archive/KNTraP_Project/src/KNTraP/',
                                 conda_env_name='kntrap',
                                 kntrap_data_dir='/fred/oz100/NOAO_archive/KNTraP_Project/kntrappipe',
@@ -83,7 +83,7 @@ def submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
                                 overwrite=False):
 
     # Create the bash script
-    kntrap_bashscript_path = write_kntrap_bashscript(fieldname,filterband,ctio_caldate,fitsextension,
+    kntrap_bashscript_path = write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
                                                     kntrap_src_path=kntrap_src_path,
                                                     conda_env_name=conda_env_name,
                                                     kntrap_data_dir=kntrap_data_dir,
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     # Not implemented arguments (to be implemented later)
     overwrite           = arguments['--overwrite']
 
-    _ = submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
+    _ = submit_slurm_ozstar(fieldname,ctio_caldate,filterband,fitsextension,
                                 kntrap_src_path=kntrap_src_path,
                                 conda_env_name=conda_env_name,
                                 kntrap_data_dir=kntrap_data_dir,

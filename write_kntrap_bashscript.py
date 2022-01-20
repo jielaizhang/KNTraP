@@ -51,8 +51,8 @@ export PYTHONPATH=$PYTHONPATH:SRC_DIR
 
 src_dir=SRC_DIR
 field=FIELDNAME
-band=FILTERBAND
 caldate=CTIO_CALDATE # calendar date at start of night at telescope
+band=FILTERBAND
 ext=FITSEXTENSION
 
 #STEP1: split CPTrigger stack fits file's 61 exts into 61 fits files
@@ -115,7 +115,7 @@ def write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
     script_string = script_string.replace('CONDA_ENV_NAME',conda_env_name)
     script_string = script_string.replace('SRC_DIR',kntrap_src_path)
     script_string = script_string.replace('FIELDNAME',fieldname)
-    script_string = script_string.replace('FIELDNAME',filterband)
+    script_string = script_string.replace('FILTERBAND',filterband)
     script_string = script_string.replace('CTIO_CALDATE',ctio_caldate)
     script_string = script_string.replace('FITSEXTENSION',fitsextension)
 
