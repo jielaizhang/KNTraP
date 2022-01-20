@@ -30,7 +30,7 @@ Examples:
     python submit_slurm_ozstar.py GRB210605A5 20210607 g 30
 """
 import docopt
-import subprocess, sys
+import sys, os
 
 # KNTraP modules
 from write_kntrap_bashscript import write_kntrap_bashscript
@@ -136,9 +136,7 @@ def submit_slurm_ozstar(fieldname,ctio_caldate,filterband,fitsextension,
         command = f'sbatch {slurm_script_path}'
         print(f'Running: {command}')
         try:
-            output = subprocess.check_output(['sbatch',slurm_script_path],shell=True)
-            print(f'Ran: {command}')
-            print(f'Output: {output}')
+            os.system(command)
             if verbose:
                 print('VERBOSE: Useful slurm queue check commands:')
                 print('VERBOSE: alias watchnodes: squeue --user=fstars -i5 --format="%.11i %.9P %.29j %.8u %.7T %.8M %.4D %R"')
