@@ -121,7 +121,7 @@ def write_kntrap_bashscript(fieldname,ctio_caldate,filterband,fitsextension,
 
     # Figure out where to save the bash script
     if outdir == None:
-        bash_script_dir = kntrap_data_dir+'/logs/kntrapbashscripts'
+        bash_script_dir = kntrap_data_dir+f'/logs/ozstar/{fieldname}/'
     else:
         bash_script_dir = outdir
     bash_script_path    = bash_script_dir+f'/kntrappipe_{fieldname}_{ctio_caldate}_{filterband}_{fitsextension}.sh'

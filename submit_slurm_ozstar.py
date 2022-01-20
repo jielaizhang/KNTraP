@@ -94,7 +94,7 @@ def submit_slurm_ozstar(fieldname,filterband,ctio_caldate,fitsextension,
 
     # Figure out where to save the bash script
     if outdir == None:
-        slurm_script_dir = kntrap_data_dir+'/logs/kntrapbashscripts'
+        slurm_script_dir = kntrap_data_dir+f'/logs/ozstar/{fieldname}'
     else:
         slurm_script_dir = outdir
     slurm_script_path    = slurm_script_dir+f'/kntrappipe_{fieldname}_{ctio_caldate}_{filterband}_{fitsextension}_slurm.sh'
