@@ -73,6 +73,8 @@ echo ext           = ${ext}
 echo conda_env     = CONDA_ENV_NAME
 echo pipe_data_dir = PIPE_DATA_DIR
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "ALIGN template and science"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -82,7 +84,12 @@ echo "Execute: python ${src_dir}/align_image.py --swarp swarp -o data_outputs/${
 python ${src_dir}/align_image.py --swarp swarp -o data_outputs/${field}/${caldate} TEMPLATE_IMAGES/${field}_${band}_stacked_template.fits data_unpacked/${field}/${field}_${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.fits
 echo "Execute: mv data_outputs/${field}/${caldate}/${field}_${band}_stacked_template.resamp.fits data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits"
 mv data_outputs/${field}/${caldate}/${field}_${band}_stacked_template.resamp.fits data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits
+echo "||| ALIGN template and science Target file created? --> ||||"
+ls data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits
+ls data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "SUBTRACT: science - template"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -90,7 +97,11 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # overall syntax: subtract_image --sextractor SE_loc template_resamp.fits and science_resamp.fits -s subtraction.fits 
 echo "Execute: python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/subtract_image.py --sextractor sex data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits -s data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
+echo "||| ALIGN template and science Target file created? --> ||||"
+ls data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "SOURCE EXTRACT: template"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -99,6 +110,8 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending TEMPLATE --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending TEMPLATE --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${band}_stacked_template_ext${ext}.resamp.fits
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "SOURCE EXTRACT: science"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -107,6 +120,8 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SCI --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate}  data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SCI --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate}  data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp.fits
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "SOURCE EXTRACT: subtraction image"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -116,6 +131,8 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SUB --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending SUB --fwhm 1.1 --detect_minarea 10 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits 
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "INVERT subtraction image"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -124,6 +141,8 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "Execute: python ${src_dir}/invert_fits.py -o data_outputs/${field}/${caldate} --overwrite data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits"
 python ${src_dir}/invert_fits.py -o data_outputs/${field}/${caldate} --overwrite data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub.fits
 
+
+echo ''
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
 echo "SOURCE EXTRACT: inverted subtraction or sub_neg image"
 echo "||||||||||||||||||||||||||||||||||||||||||||||"
@@ -131,6 +150,7 @@ echo "||||||||||||||||||||||||||||||||||||||||||||||"
 # overall syntax: run_sourceextractor -s SE_loc -p PSFEX_loc --options --savecats OUTPUT_DIR subtraction.fits 
 echo "Execute: python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending NEG --fwhm 1.1 --detect_minarea 8 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub_neg.fits"
 python ${src_dir}/run_sourceextractor.py -v -s sex -p psfex --catending NEG --fwhm 1.1 --detect_minarea 8 --detect_thresh 1.0 --savecats data_outputs/${field}/${caldate} data_outputs/${field}/${caldate}/${field}_${caldate}_${band}_stack_ext${ext}.resamp_sub_neg.fits
+
 
 # below not edited yet
 
