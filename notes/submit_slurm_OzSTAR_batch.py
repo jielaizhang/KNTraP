@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 
-""" submit_slurm_OzSTAR_batch.py -- Input command to submit to sbatch, and submit it. . 
+""" submit_slurm_OzSTAR_batch.py -- Input file with commands to submit to sbatch, and submit each command.  
 
-Usage: submit_slurm_OzSTAR_batch [-h] [-v] [--do_not_submit] [--ozstar_reservation STRING] [--bashrcfile STRING] <command> 
+Usage: 
+    submit_slurm_OzSTAR_batch [-h] [-v] [--do_not_submit] [--ozstar_reservation STRING] [--bashrcfile STRING] [--skiplog] [--request_memory INT] <commandfile> 
 
 Arguments:
-    command (string)
+    commandfile (string)
+    batch_options (strings)
     
 Options:
     -h, --help                      Show this screen
@@ -13,12 +15,15 @@ Options:
     --do_not_submit                 Just write the slurm script and pipeline bash scripts, don't submit via sbatch [default: False]
     --bashrcfile STRING             to set up env [default: /fred/oz100/NOAO_archive/KNTraP_Project/src/photpipe/config/DECAMNOAO/YSE/YSE.bash.sourceme]
     --ozstar_reservation STRING     If set, in sbatch script put #SBATCH --reservation={ozstar_reservation}
+    --skiplog                       Ignore this option. 
+    --request_memory INT            Request this much memory in MB [default: 8000]
 
 Examples:
     submit_slurm_OzSTAR_batch.py command
 """
 import docopt
 import sys, os
+import numpy
 
 __author__      = "Jielai Zhang"
 __license__     = "MIT"
@@ -51,7 +56,7 @@ batch_script_template = '''#!/bin/bash
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=2
 #SBATCH --time=24:00:00
-#SBATCH --mem-per-cpu=12G
+#SBATCH --mem-per-cpu=MEM_REQUESTG
 RESERVATION_LINE
 
 echo Slurm Job JOB_NAME start
@@ -71,6 +76,7 @@ echo Slurm Job JOB_NAME done in $(($duration / 60)) minutes and $(($duration % 6
 def submit_slurm_OzSTAR_batch(command,
                                 bashrcfile='/fred/oz100/NOAO_archive/KNTraP_Project/src/photpipe/config/DECAMNOAO/YSE/YSE.bash.sourceme',
                                 ozstar_reservation=None,
+                                memory_request=4000,
                                 verbose=False,debugmode=False,quietmode=False,
                                 do_not_submit=False):
     # Define slurm job name 
@@ -93,6 +99,7 @@ def submit_slurm_OzSTAR_batch(command,
     script_string = script_string.replace('PIPE_DATA_DIR',pipedata_dir)
     script_string = script_string.replace('COMMAND',command)
     script_string = script_string.replace('FIELDNAME',fieldname)
+    script_string = script_string.replace('MEM_REQUEST',int(np.ceil(memory_request/1000.)) )
     if ozstar_reservation == None:
         script_string = script_string.replace('RESERVATION_LINE','')
     else:
@@ -144,11 +151,12 @@ if __name__ == "__main__":
     # Optional arguments (with defaults set)
     bashrcfile          = arguments['--bashrcfile']
     ozstar_reservation  = arguments['--ozstar_reservation']
-    # Not implemented arguments (to be implemented later)
-    overwrite           = arguments['--overwrite']
+    memory_request      = arguments['--request_memory']
+    _                   = arguments['--skiplog']
 
-    _ submit_slurm_OzSTAR_batch(command,
+    _ = submit_slurm_OzSTAR_batch(command,
                                 bashrcfile=bashrcfile,
                                 ozstar_reservation=ozstar_reservation,
+                                memory_request = memory_request,
                                 verbose=verbose,debugmode=debugmode,quietmode=quietmode,
                                 do_not_submit=do_not_submit)
