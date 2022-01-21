@@ -91,7 +91,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
             print(f"Line {cnt}: {pipecommand}")
 
             # Define slurm job name 
-            pipe_command_clean  = pipecommand.split('/')[-1]
+            pipe_command_clean  = pipecommand.split('/')[-1].replace('pipemaster.pl','pm').strip()
             slurm_job_name      = '_'.join(pipe_command_clean.split(' '))
             fieldname           = pipe_command_clean.split(' ')[2]
 
