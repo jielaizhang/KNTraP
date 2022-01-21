@@ -67,6 +67,7 @@ echo Job .err is saved at: /PIPE_DATA_DIR/logs/ozstar/FIELDNAME/JOB_NAME.err
 echo `date`
 SECONDS=0
 echo -------- --------
+source BASHRCFILE
 COMMAND
 echo -------- --------
 echo `date`
@@ -109,6 +110,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
             script_string = batch_script_template.replace('JOB_NAME',slurm_job_name)
             script_string = script_string.replace('PIPE_DATA_DIR',pipedata_dir)
             script_string = script_string.replace('COMMAND',pipecommand)
+            script_string = script_string.replace('BASHRCFILE',bashrcfile)
             script_string = script_string.replace('FIELDNAME',fieldname)
             script_string = script_string.replace('MEM_REQUEST',str(int(np.ceil(memory_request/1000.))) )
             if ozstar_reservation == None:
