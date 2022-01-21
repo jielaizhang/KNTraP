@@ -91,8 +91,9 @@ def submit_slurm_OzSTAR_batch(commandfile,
             print(f"Line {cnt}: {pipecommand}")
 
             # Define slurm job name 
-            slurm_job_name      = '_'.join(pipecommand.split(' '))
-            fieldname           = pipecommand.split(' ')[2]
+            pipe_command_clean  = pipecommand.split('/')[-1]
+            slurm_job_name      = '_'.join(pipe_command_clean.split(' '))
+            fieldname           = pipe_command_clean.split(' ')[2]
 
             # Figure out where to save the slurm script
             slurm_script_dir    = pipedata_dir+f'/logs/ozstar/{fieldname}'
@@ -117,6 +118,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
             
             
             # Write the bash script to file
+            print('slurm script path: ',slurm_script_path)
             f = open(slurm_script_path,'w')
             f.write(script_string)
             f.close()
