@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 
-""" submit_slurm_OzSTAR_batch.py -- Input file with commands to submit to sbatch, and submit each command.  
+""" submit_slurm_OzSTAR_batch.py -- Input file with commands to submit to sbatch, and submit each command. IMPORTANT: Only submit through sbatch if environment variable OZSTARSUBMIT is true. Also, only submit through sbatch if --do_not_submit is False. 
 
 Usage: 
     submit_slurm_OzSTAR_batch [-h] [-v] [--debug] [--do_not_submit] [--ozstar_reservation STRING] [--bashrcfile STRING] [--skiplog] [--request_memory INT] <commandfile> 
 
 Arguments:
     commandfile (string)
-    batch_options (strings)
     
 Options:
     -h, --help                      Show this screen
@@ -82,7 +81,8 @@ def submit_slurm_OzSTAR_batch(commandfile,
                                 verbose=False,
                                 do_not_submit=False):
     # Get environment variables for pipeline set up
-    pipedata_dir = os.getenv('PIPE_DATA')
+    pipedata_dir      = os.getenv('PIPE_DATA')
+    submit_via_sbatch = os.getenv('OZSTARSUBMIT')
 
     with open(commandfile) as fp:
         pipecommand = fp.readline().strip()
@@ -129,7 +129,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
             print(f'Saved: {slurm_script_path}')
 
             # submit slurm script
-            if do_not_submit == False:
+            if do_not_submit == False and submit_via_sbatch == True:
                 sbatchcommand = f'sbatch {slurm_script_path}'
                 print(f'Running: {sbatchcommand}')
                 try:
