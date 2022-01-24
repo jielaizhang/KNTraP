@@ -83,6 +83,14 @@ def submit_slurm_OzSTAR_batch(commandfile,
     # Get environment variables for pipeline set up
     pipedata_dir      = os.getenv('PIPE_DATA')
     submit_via_sbatch = os.getenv('OZSTARSUBMIT')
+    if submit_via_sbatch == 'True':
+        submit_via_sbatch = True
+    elif submit_via_sbatch == 'False':
+        submit_via_sbatch = False
+    else:
+        print('WARNING: OZSTARSUBMIT env variable exported to : ',submit_via_sbatch)
+        print('WARNING: As a result, submit_via_sbatch set to False, prepared slurm scripts will not be sbatched.')
+        submit_via_sbatch = False
 
     with open(commandfile) as fp:
         pipecommand = fp.readline().strip()
