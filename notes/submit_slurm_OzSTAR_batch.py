@@ -144,8 +144,9 @@ def submit_slurm_OzSTAR_batch(commandfile,
                     os.system(sbatchcommand)
                 except:
                     sys.exit(f'!!! ERROR-- sys.exit when running: {command}')
+                print('If want to switch of submit via sbatch: put "export OZSTARSUBMIT=False"')
             else:
-                print('sbatch command not carried out as requested. To submit, put "export OZSTARSUBMIT=True"')
+                print('WARNING: sbatch command not carried out as requested. To submit, put "export OZSTARSUBMIT=True"')
 
             # read in next line
             pipecommand = fp.readline().strip()
