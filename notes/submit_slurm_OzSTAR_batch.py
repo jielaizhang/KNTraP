@@ -101,12 +101,16 @@ def submit_slurm_OzSTAR_batch(commandfile,
 
             # Define slurm job name 
             # Remove full path to "pipemaster.pl"
-            pipe_command_clean  = pipecommand.split('/')[-1].replace('pipemaster.pl','pm').strip()
-            # Join spaces with _ and replace ' with nothing
+            pipe_command_clean  = pipecommand.split('pipemaster.pl')[1].strip()
+            # Join spaces with _ and replace ' and * and / and < and > with nothing
             slurm_job_name      = '_'.join(pipe_command_clean.split(' '))
             slurm_job_name      = slurm_job_name.replace("'",'')
+            slurm_job_name      = slurm_job_name.replace("*",'')
+            slurm_job_name      = slurm_job_name.replace("/",'')
+            slurm_job_name      = slurm_job_name.replace("<",'')
+            slurm_job_name      = slurm_job_name.replace(">",'')
             # This is always the fieldname
-            fieldname           = pipe_command_clean.split(' ')[2]
+            fieldname           = pipe_command_clean.split(' ')[1]
 
             # Figure out where to save the slurm script
             slurm_script_dir    = pipedata_dir+f'/logs/ozstar/{fieldname}'
