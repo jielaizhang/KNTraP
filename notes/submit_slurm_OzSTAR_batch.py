@@ -97,11 +97,15 @@ def submit_slurm_OzSTAR_batch(commandfile,
         cnt = 1
         while pipecommand:
             print('==========')
-            print(f"Line {cnt}: {pipecommand}")
+            print(f"Line {cnt} : {pipecommand}")
 
             # Define slurm job name 
+            # Remove full path to "pipemaster.pl"
             pipe_command_clean  = pipecommand.split('/')[-1].replace('pipemaster.pl','pm').strip()
+            # Join spaces with _ and replace ' with nothing
             slurm_job_name      = '_'.join(pipe_command_clean.split(' '))
+            slurm_job_name      = slurm_job_name.replace("'",'')
+            # This is always the fieldname
             fieldname           = pipe_command_clean.split(' ')[2]
 
             # Figure out where to save the slurm script
@@ -128,13 +132,12 @@ def submit_slurm_OzSTAR_batch(commandfile,
             
             
             # Write the bash script to file
-            print('slurm script path: ',slurm_script_path)
             f = open(slurm_script_path,'w')
             f.write(script_string)
             f.close()
 
             # print 
-            print(f'Saved: {slurm_script_path}')
+            print(f'Saved  : {slurm_script_path}')
 
             # submit slurm script
             if do_not_submit == False and submit_via_sbatch == True:
@@ -144,7 +147,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
                     os.system(sbatchcommand)
                 except:
                     sys.exit(f'!!! ERROR-- sys.exit when running: {command}')
-                print('If want to switch of submit via sbatch: put "export OZSTARSUBMIT=False"')
+                print('Note   : If want to switch of submit via sbatch: put "export OZSTARSUBMIT=False"')
             else:
                 print('WARNING: sbatch command not carried out as requested. To submit, put "export OZSTARSUBMIT=True"')
 
