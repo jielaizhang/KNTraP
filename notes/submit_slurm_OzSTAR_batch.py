@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 """ submit_slurm_OzSTAR_batch.py -- Input file with commands to submit to sbatch, and submit each command. IMPORTANT: Only submit through sbatch if environment variable OZSTARSUBMIT is true. Also, only submit through sbatch if --do_not_submit is False. 
+Note that   pipedata_dir      = os.getenv('PIPE_DATA')
+            submit_via_sbatch = os.getenv('OZSTARSUBMIT') 
 
 Usage: 
     submit_slurm_OzSTAR_batch [-h] [-v] [--debug] [--do_not_submit] [--ozstar_reservation STRING] [--bashrcfile STRING] [--skiplog] [--request_memory INT] <commandfile> 
@@ -102,13 +104,16 @@ def submit_slurm_OzSTAR_batch(commandfile,
             # Define slurm job name 
             # Remove full path to "pipemaster.pl"
             pipe_command_clean  = pipecommand.split('pipemaster.pl')[1].strip()
-            # Join spaces with _ and replace ' and * and / and < and > with nothing
+            # Join spaces with _ and replace ' and * and / and < and > and - with nothing
+            # replace __ with _
             slurm_job_name      = '_'.join(pipe_command_clean.split(' '))
             slurm_job_name      = slurm_job_name.replace("'",'')
             slurm_job_name      = slurm_job_name.replace("*",'')
             slurm_job_name      = slurm_job_name.replace("/",'')
             slurm_job_name      = slurm_job_name.replace("<",'')
             slurm_job_name      = slurm_job_name.replace(">",'')
+            slurm_job_name      = slurm_job_name.replace("-",'')
+            slurm_job_name      = slurm_job_name.replace("__",'_')
             # This is always the fieldname
             fieldname           = pipe_command_clean.split(' ')[1]
 
