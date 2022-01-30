@@ -1,0 +1,2 @@
+         pointing  group        RA       Dec  skip        SN               filename      field
+         DWF        <NA> 124.36528  10.49278     0       NaN          1511.B.a.json      1511B
