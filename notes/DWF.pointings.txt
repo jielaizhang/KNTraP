@@ -1,0 +1,16 @@
+         pointing  group        RA       Dec  skip        SN               filename      field detname  tilenumber
+          S82sub1   <NA> 220.83333 +11.15000     0       NaN                    NaN    S82sub1     NaN        <NA>
+          S82sub8   <NA> 226.54167 +9.548610     0       NaN                    NaN    S82sub8     NaN        <NA>
+          Ext3sub1  <NA> 245.65000 +5.148890     0       NaN                    NaN   Ext3sub1     NaN        <NA>
+          Ext3sub3  <NA> 247.25000 +4.066670     0       NaN                    NaN   Ext3sub3     NaN        <NA>
+          Ext3sub4  <NA> 248.18750 +5.511670     0       NaN                    NaN   Ext3sub4     NaN        <NA>
+          Ext3sub6  <NA> 249.25417 +1.090560     0       NaN                    NaN   Ext3sub6     NaN        <NA>
+          Ext3sub5  <NA> 248.75000 +2.833333     0       NaN                    NaN   Ext3sub5     NaN        <NA>
+          Ext1sub1  <NA> 305.94583 -7.629170     0       NaN                    NaN   Ext1sub1      NaN        <NA>
+          Ext1sub2  <NA> 306.45000 -9.130560     0       NaN                    NaN   Ext1sub2      NaN        <NA>
+          Ext1sub3  <NA> 307.20833 -6.273060     0       NaN                    NaN   Ext1sub3      NaN        <NA>
+          Ext1sub4  <NA> 307.72500 -7.788890     0       NaN                    NaN   Ext1sub4      NaN        <NA>
+          Ext1sub5  <NA> 308.25000 -9.300000     0       NaN                    NaN   Ext1sub5      NaN        <NA>
+          Ext1sub6  <NA> 308.92500 -6.359440     0       NaN                    NaN   Ext1sub6      NaN        <NA>
+          Ext1sub7  <NA> 309.46667 -7.892780     0       NaN                    NaN   Ext1sub7      NaN        <NA>
+          Ext1sub8  <NA> 310.00417 -9.417500     0       NaN                    NaN   Ext1sub8      NaN        <NA>
