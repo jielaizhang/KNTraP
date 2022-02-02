@@ -16,7 +16,7 @@ Options:
     -v, --verbose                   Print extra info to screen. [default: False]
     --debug                         Print input docopt arguments [default: False]
     --do_not_submit                 Just write the slurm script and pipeline bash scripts, don't submit via sbatch [default: False]
-    --bashrcfile STRING             to set up env [default: /fred/oz100/NOAO_archive/KNTraP_Project/src/photpipe/config/DECAMNOAO/YSE/YSE.bash.sourceme]
+    --bashrcfile STRING             --bashrcfile STRING to set up env. This will get a replace YSE with PIPENAME [default: /fred/oz100/NOAO_archive/KNTraP_Project/src/photpipe/config/DECAMNOAO/YSE/YSE.bash.sourceme] 
     --ozstar_reservation STRING     If set, in sbatch script put #SBATCH --reservation={ozstar_reservation}
     --skiplog                       Ignore this option. 
     --request_memory INT            Request this much memory in MB [default: 8000]
@@ -85,8 +85,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
                                 do_not_submit=False):
     # Get environment variables for pipeline set up
     pipeproj_name     = os.getenv('PIPENAME')
-    if pipeproj_name != 'YSE':
-        bashrcfile = bashrcfile.replace('YSE',pipeproj_name)
+    bashrcfile = bashrcfile.replace('YSE',pipeproj_name)
     pipedata_dir      = os.getenv('PIPE_DATA')
     submit_via_sbatch = os.getenv('OZSTARSUBMIT')
     if submit_via_sbatch == 'True':
