@@ -85,7 +85,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
                                 do_not_submit=False):
     # Get environment variables for pipeline set up
     pipeproj_name     = os.getenv('PIPENAME')
-    if project_name != 'YSE':
+    if pipeproj_name != 'YSE':
         bashrcfile = bashrcfile.replace('YSE',pipeproj_name)
     pipedata_dir      = os.getenv('PIPE_DATA')
     submit_via_sbatch = os.getenv('OZSTARSUBMIT')
