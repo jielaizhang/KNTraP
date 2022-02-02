@@ -3,6 +3,7 @@
 """ submit_slurm_OzSTAR_batch.py -- Input file with commands to submit to sbatch, and submit each command. IMPORTANT: Only submit through sbatch if environment variable OZSTARSUBMIT is true. Also, only submit through sbatch if --do_not_submit is False. 
 Note that   pipedata_dir      = os.getenv('PIPE_DATA')
             submit_via_sbatch = os.getenv('OZSTARSUBMIT') 
+            pipeproj_name     = os.getenv('PIPENAME')
 
 Usage: 
     submit_slurm_OzSTAR_batch [-h] [-v] [--debug] [--do_not_submit] [--ozstar_reservation STRING] [--bashrcfile STRING] [--skiplog] [--request_memory INT] <commandfile> 
@@ -83,6 +84,9 @@ def submit_slurm_OzSTAR_batch(commandfile,
                                 verbose=False,
                                 do_not_submit=False):
     # Get environment variables for pipeline set up
+    pipeproj_name     = os.getenv('PIPENAME')
+    if project_name != 'YSE':
+        bashrcfile = bashrcfile.replace('YSE',pipeproj_name)
     pipedata_dir      = os.getenv('PIPE_DATA')
     submit_via_sbatch = os.getenv('OZSTARSUBMIT')
     if submit_via_sbatch == 'True':
