@@ -114,6 +114,7 @@ def submit_slurm_OzSTAR_batch(commandfile,
             slurm_job_name      = slurm_job_name.replace(">",'')
             slurm_job_name      = slurm_job_name.replace("-",'')
             slurm_job_name      = slurm_job_name.replace("__",'_')
+            slurm_job_name      = slurm_job_name[0:300]
             # This is always the fieldname
             fieldname           = pipe_command_clean.split(' ')[1]
 
