@@ -160,6 +160,7 @@ ccd_code_dic = {
 jj_base = {    
         "outfields" : [
             "md5sum",
+            "release_date",
             "archive_filename",
             "original_filename",
             "proc_type",
@@ -296,7 +297,10 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
                     fileurl = f'{natroot}/api/retrieve/{fileID}'
                     tokurl = f'{natroot}/api/get_token/'
                     auth = dict(email=username, password=pw)
-                    r = requests.post(tokurl, json=auth)
+                    if username == None or pw == None:
+                        r = requests.post(tokurl)
+                    else:
+                        r = requests.post(tokurl, json=auth)
                     if r.status_code == 200:
                         token = r.json()
                         headers = dict(Authorization=token)
@@ -309,7 +313,7 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
                             msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
                             raise Exception(msg)
                     else:
-                        raise Exception(f"Could got get authorization: {token['detail']}")
+                        raise Exception(f"Could got get authorization: Did you put in the right credentials? You put: username={username},pw={pw} and file had release_date={row['release_date']}.")
     
     # Finish timer
     elapsed = toc()
@@ -339,6 +343,8 @@ if __name__ == "__main__":
     credentials         = arguments['--credentials']
     if credentials:
         username,pw     = credentials.split(',')
+    else:
+        username,pw     = None,None
     search_radius_deg   = float(arguments['--search_radius'])
     file_string         = arguments['--file_string']
     prod_types          = arguments['--prod_types']
