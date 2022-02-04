@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-""" KNTraP_download_ccdbyccd.py -- Download DECam Community pipeline ccd-by-ccd stacked data uploaded to the archive where each file is a separate CCD (as opposed to all CCDs being a multiple extensions of the same file like instcal noao archive files). Currently will download all filters available satisfying RA/DEC/caldat/prod_types criteria entered, and get instrument=decam, telescope=ct4m, obs_type=object, proc_type=stacked
+""" 
+KNTraP_download_ccdbyccd.py -- Download DECam Community pipeline ccd-by-ccd stacked data uploaded to the archive where each file is a separate CCD (as opposed to all CCDs being a multiple extensions of the same file like instcal noao archive files). Currently will download all filters available satisfying RA/DEC/caldat/prod_types criteria entered, and get instrument=decam, telescope=ct4m, obs_type=object, proc_type=stacked.
 
 Note that   
 pipesrc_dir      = os.getenv('PIPE_SRC')
@@ -12,22 +13,23 @@ Usage:
     KNTraP_download_ccdbyccd.py [-h] [-v] [--debug] [--do_not_download] [--credentials STRING] [--search_radius FLOAT] [--file_string STRING] [--prod_types STRING] <caldat> <pointing_name> 
 
 Arguments:
-    caldat e.g. 2021-06-04
-        The local calendar date of the telescope, at the start of PM observing. Please only enter 1 caldat.
-    pointing_name e.g. S82sub8
+    caldat (string)
+        is the local calendar date of the telescope, at the start of PM observing. Please only enter 1 caldat.
+    pointing_name (string)
+        e.g. S82sub8
     
 Options:
     -h, --help                      Show this screen
     -v, --verbose                   Print extra info to screen. [default: False]
     --debug                         Print input docopt arguments [default: False]
     --do_not_download               Just print what it'll download but not download it [default: False]
-    --credentials                   Format: USERNAME,PW
-    --search_radius                 In degrees, default is 36" [default: 0.01]
-    --file_string                   E.g. v1, kfttest [default: kfttest]
-    --prod_types                    Choose from: image, image1, wtmap, dqmask, expmap [default: image1,wtmap,dqmask]
+    --credentials STRING            Format: USERNAME,PW
+    --search_radius FLOAT           In degrees, default is 36" [default: 0.01]
+    --file_string STRING            E.g. v1, kfttest [default: kfttest]
+    --prod_types STRING             Choose from: image, image1, wtmap, dqmask, expmap [default: image1,wtmap,dqmask]
 
 Examples:
-    KNTraP_download_ccdbyccd.py 2021-06-04 S82sub8
+    KNTraP_download_ccdbyccd.py 2021-06-05 S82sub8 --do_not_download -v --credentials XXX,XXX
 """
 import docopt
 import pandas as pd
@@ -38,6 +40,7 @@ import astropy.io.ascii as ascii
 import os
 import copy
 import time
+import datetime
 
 # Time Counter function
 
@@ -64,7 +67,7 @@ def makedirs_(out_path):
 
 # Calculation functions
 
-def  get_radec_maxmin(RAcentre,DECcentre,search_radius, debug=False):
+def  get_radec_maxmin(RAcentre,DECcentre,search_radius_deg, debug=False):
 
     dec_min = DECcentre - search_radius_deg
     dec_max = DECcentre + search_radius_deg
@@ -81,8 +84,8 @@ def  get_radec_maxmin(RAcentre,DECcentre,search_radius, debug=False):
         if ra_max>360.0: ra_max-=360.0
 
     if debug:
-        print(dec_min, dec_max)
-        print(ra_min, ra_max)
+        print('**** DEBUG: ',dec_min, dec_max)
+        print('**** DEBUG: ',ra_min, ra_max)
 
     return ra_min,ra_max,dec_min,dec_max
 
@@ -192,7 +195,7 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
                                 do_not_download=False):
 
     # Start the timer
-    if verbose:
+    if verbose or debugmode:
         print(f'VERBOSE: Started on: {str(datetime.datetime.now())}')
     tic() # Start timing the run of this notebook
 
@@ -200,7 +203,9 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
     pipesrc_dir      = os.getenv('PIPE_SRC')
     pipe_instru      = os.getenv('PIPE_INSTRUMENT')
     pipe_projec      = os.getenv('PIPENAME')
+    pipedata_dir     = os.getenv('PIPE_DATA')
     f_field_centers  = f'{pipesrc_dir}/config/{pipe_instru}/{pipe_projec}/{pipe_projec}.fieldcenters'
+    raw_dir          = f'{pipedata_dir}/raw/'
 
     # NOAO server Settings
     natroot = 'https://astroarchive.noirlab.edu'
@@ -215,16 +220,16 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
         print(f'**** DEBUG: Using API url: {apiurl}')
 
     # Read in fieldcenters file (need it for each ccd's RA and DEC centers)
-    d_field_centres                = ascii.read(f_field_centres)
-    df_field_centres               = pd.DataFrame(d_field_centres.as_array())
-    df_field_centres_selectedfield = df_field_centres[df_field_centres['field']==fieldname]
+    d_field_centers                = ascii.read(f_field_centers)
+    df_field_centers               = pd.DataFrame(d_field_centers.as_array())
+    df_field_centers_selectedfield = df_field_centers[df_field_centers['field']==pointing_name]
 
     # Just do a subset of CCDs if in debugmode so can get through it faster for tests.
     if debugmode:
         ccds_to_go_through = np.arange(2)
         print('**** DEBUG: Just going through 2 CCDs worth of data')
     else:
-        ccds_to_go_through = np.arange(len(df_field_centres_selectedfield))
+        ccds_to_go_through = np.arange(len(df_field_centers_selectedfield))
 
     # =======================================================================
     # For each CCD, query and download (if not told not to) what's specified.  
@@ -232,11 +237,11 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
     for ii in ccds_to_go_through:
 
         # Get CCD RA and DEC centre limits
-        ccd               = df_field_centres_selectedfield.iloc[ii]['ampl']
+        ccd               = df_field_centers_selectedfield.iloc[ii]['ampl']
         print(f'\n############### Working on CCD {ccd} ###############\n')
-        RAcentre          = df_field_centres_selectedfield.iloc[ii]['RAdeg'] #226.54167   
-        DECcentre         = df_field_centres_selectedfield.iloc[ii]['DECdeg'] #9.54861
-        ra_min,ra_max,dec_min,dec_max = get_radec_maxmin(RAcentre,DECcentre,search_radius,debug=debugmode)
+        RAcentre          = df_field_centers_selectedfield.iloc[ii]['RAdeg'] #226.54167   
+        DECcentre         = df_field_centers_selectedfield.iloc[ii]['DECdeg'] #9.54861
+        ra_min,ra_max,dec_min,dec_max = get_radec_maxmin(RAcentre,DECcentre,search_radius_deg,debug=debugmode)
 
         # Perform query of NOAO archive
         if ra_min>ra_max:
@@ -247,7 +252,7 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
             jj=copy.deepcopy(jj_base)
             jj['search'].append(['ra_center',ra_min,ra_max])
             jj['search'].append(['dec_center',dec_min,dec_max])
-            jj['search'].append["caldat",caldat,caldat]
+            jj['search'].append(["caldat",caldat,caldat])
             if debugmode:
                 print('**** DEBUG: Search json: ')
                 print(jj)
@@ -262,8 +267,8 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
         # ==============================================================
         # Print info on and download if specified each file for this CCD. 
         for index, row in ads_df_with_string.iterrows():
-            if row['prod_type'] in prod_types_to_get:
-                if verbose:
+            if row['prod_type'] in prod_types:
+                if verbose or debugmode:
                     print('\nVERBOSE: ======================')
                     print('VERBOSE: WORKING ON A NEW FILE:',row['archive_filename'].split('/')[-1])
                     print('VERBOSE: ======================')
@@ -271,17 +276,17 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
                         print(f'VERBOSE: {k:18s}: {row[k]}')
                     print('')
                 else:
-                    print(f'For row["archive_filename"]')
-                dlink          = row['url']
-                caldat         = row['caldat'].replace('-','')
-                band           = row['ifilter'].split(' ')[0]
-                ccd_code       = ccd_code_dic[ccd]
-                prod_type_code = row['archive_filename'].split('/')[-1].split('_')[3]
-                out_file_name  = f'{fieldname}.{caldat}_{prod_type_code}_{band}_{file_string}_{ccd_code}.fits.fz'
-                out_path       = f'{raw_dir}/{fieldname}/{ccd}/{out_file_name}'
+                    print(f'For {row["archive_filename"]} -->')
+                dlink           = row['url']
+                caldat_filename = row['caldat'].replace('-','')
+                band            = row['ifilter'].split(' ')[0]
+                ccd_code        = ccd_code_dic[ccd]
+                prod_type_code  = row['archive_filename'].split('/')[-1].split('_')[3]
+                out_file_name   = f'{pointing_name}.{caldat_filename}_{prod_type_code}_{band}_{file_string}_{ccd_code}.fits.fz'
+                out_path        = f'{raw_dir}/{pointing_name}/{ccd}/{out_file_name}'
                 makedirs_(out_path)
 
-                print('Save as: ',out_path)
+                print('Will save as: ',out_path)
 
                 # Do the actual downloading
                 if not do_not_download:
@@ -306,6 +311,10 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
                     else:
                         raise Exception(f"Could got get authorization: {token['detail']}")
     
+    # Finish timer
+    elapsed = toc()
+    print(f'Elapsed seconds={elapsed}')
+    print(f'Completed on: {str(datetime.datetime.now())}')
     return None
 
 
@@ -324,12 +333,12 @@ if __name__ == "__main__":
     verbose             = arguments['--verbose']
     do_not_download     = arguments['--do_not_download']
     # Required arguments
-    caldat              = arguments['<commandfile>']
+    caldat              = arguments['<caldat>']
     pointing_name       = arguments['<pointing_name>']
     # Optional arguments 
     credentials         = arguments['--credentials']
     if credentials:
-        username,pw     = credientials.split(',')
+        username,pw     = credentials.split(',')
     search_radius_deg   = float(arguments['--search_radius'])
     file_string         = arguments['--file_string']
     prod_types          = arguments['--prod_types']
