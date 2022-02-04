@@ -227,7 +227,7 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
 
     # Just do a subset of CCDs if in debugmode so can get through it faster for tests.
     if debugmode:
-        ccds_to_go_through = np.arange(2)
+        ccds_to_go_through = [29,30,31]
         print('**** DEBUG: Just going through 2 CCDs worth of data')
     else:
         ccds_to_go_through = np.arange(len(df_field_centers_selectedfield))
@@ -261,6 +261,9 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
 
         # Print some query output stats
         print('Retrieved: ',len(ads_df))
+        if len(ads_df) == 0:
+            print('No outputs for this CCD, skip to next one.')
+            continue
         ads_df_with_string = ads_df[ [file_string_in_x(x,file_string) for x in ads_df['archive_filename']] ]
         print(f'Retrieved and filtered through only those with {file_string} in archive_filename: ',len(ads_df_with_string))
         print('')
