@@ -1,4 +1,4 @@
-
+start=`date +%s`
 #Centaurus 57 192.291178 -42.077276 :
 getPS1cat.py  192.291178 -42.077276 -g --size 0.55x0.3 -o /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP/abscats//0x5013/Centaurus_g_57_PS1.cat --clobber --tmpdir /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP//workspace/delme/PS1cat 
 getPS1cat.py  192.291178 -42.077276 -i --size 0.55x0.3 -o /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP/abscats//0x5015/Centaurus_i_57_PS1.cat --clobber --tmpdir /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP//workspace/delme/PS1cat 
@@ -798,3 +798,7 @@ getPS1cat.py  227.019254 10.282359 -i --size 0.55x0.3 -o /fred/oz100/NOAO_archiv
 #S82sub8 8 225.91472 10.12045 :
 getPS1cat.py  225.91472 10.12045 -g --size 0.55x0.3 -o /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP/abscats//0x5013/S82sub8_g_8_PS1.cat --clobber --tmpdir /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP//workspace/delme/PS1cat 
 getPS1cat.py  225.91472 10.12045 -i --size 0.55x0.3 -o /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP/abscats//0x5015/S82sub8_i_8_PS1.cat --clobber --tmpdir /fred/oz100/NOAO_archive/KNTraP_Project/photpipe/v20.0/DECAMNOAO/KNTraP//workspace/delme/PS1cat 
+
+end=`date +%s`
+echo "Duration in minutes    : $((($(date +%s)-$start)/60)) minutes"
+echo "Alt: Duration in hours : $((($(date +%s)-$start)/60/60)) hours"
