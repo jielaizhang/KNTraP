@@ -17,3 +17,14 @@
              14hr   <NA> 218.50000 -78.10000     0       NaN                    NaN       14hr     NaN        <NA>
             Polar   <NA> 240.00000 -75.00000     0       NaN                    NaN      Polar     NaN        <NA>
           ngc6101   <NA> 246.50000 -73.00000     0       NaN                    NaN    ngc6101     NaN        <NA>
+          KNTRAP1   <NA>  99.20000 -50.20000     0       NaN                    NaN    KNTRAP1     NaN        <NA>
+          KNTRAP2   <NA> 126.00000 -69.00000     0       NaN                    NaN    KNTRAP2     NAN        <NA>
+          KNTRAP3   <NA> 133.50000 -67.80000     0       NaN                    NaN    KNTRAP3     NAN        <NA>
+          KNTRAP4   <NA> 138.50000 -73.60000     0       NaN                    NaN    KNTRAP4     NAN        <NA>
+          KNTRAP5   <NA> 157.50000 -38.50000     0       NaN                    NaN    KNTRAP5     NAN        <NA>
+          KNTRAP6   <NA> 160.75000 -37.30000     0       NaN                    NaN    KNTRAP6     NAN        <NA>
+          KNTRAP7   <NA> 163.50000 -40.30000     0       NaN                    NaN    KNTRAP7     NAN        <NA>
+          KNTRAP8   <NA> 188.40000 -43.55000     0       NaN                    NaN    KNTRAP8     NAN        <NA>
+          KNTRAP9   <NA> 200.90000 -45.15000     0       NaN                    NaN    KNTRAP9     NAN        <NA>
+         KNTRAP10   <NA> 204.40000 -45.30000     0       NaN                    NaN   KNTRAP10     NAN        <NA>
+         KNTRAP11   <NA> 195.75000 -45.30000     0       NaN                    NaN   KNTRAP11     NAN        <NA>
