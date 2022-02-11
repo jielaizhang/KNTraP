@@ -96,7 +96,7 @@ def sim_link_file(file_path):
     file_name            = os.path.basename(file_path)
     for ccd in np.arange(62)+1:
         src = file_path
-        dst = path_above_directory + os.sep + str(int(ccd)) + os.sep + file_name.replace('.fits.fz',ccd_code_dic[ccd])
+        dst = path_above_directory + os.sep + str(int(ccd)) + os.sep + file_name.replace('.fits.fz','_'+ccd_code_dic[ccd]+'.fits.fz') 
         makedirs_(dst)
         os.symlink(src, dst)
     return None
