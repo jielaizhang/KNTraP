@@ -206,7 +206,7 @@ def KNTraP_download_ccdbyccd(caldat,pointing_name,
     pipe_projec      = os.getenv('PIPENAME')
     pipedata_dir     = os.getenv('PIPE_DATA')
     f_field_centers  = f'{pipesrc_dir}/config/{pipe_instru}/{pipe_projec}/{pipe_projec}.fieldcenters'
-    raw_dir          = f'{pipedata_dir}/raw/'
+    raw_dir          = f'{pipedata_dir}/rawdata/'
 
     # NOAO server Settings
     natroot = 'https://astroarchive.noirlab.edu'
