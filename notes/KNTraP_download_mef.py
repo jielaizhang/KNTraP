@@ -91,6 +91,16 @@ def  get_radec_maxmin(RAcentre,DECcentre,search_radius_deg, debug=False):
 
     return ra_min,ra_max,dec_min,dec_max
 
+def sim_link_file(file_path):
+    path_above_directory = os.path.dirname(os.path.dirname(file_path))
+    file_name            = os.path.basename(file_path)
+    for ccd in np.arange(62)+1:
+        src = file_path
+        dst = path_above_directory + os.sep + str(int(ccd)) + os.sep + file_name.replace('.fits.fz',ccd_code_dic[ccd])
+        makedirs_(dst)
+        os.symlink(src, dst)
+    return None
+
 
 # Json needed to make a request to NOAO archive. 
 jj_base = {    
@@ -118,6 +128,74 @@ jj_base = {
                      ["proc_type","stacked"],
                    ]
     }
+
+# Match name given to simlink file for each CCD. 
+# Have checked CCD 1,2,3,11,18,30 and they match the fieldcenters.  
+ccd_code_dic = {
+1:'S29', '1':'S29',
+2:'S30', '2':'S30',
+3:'S31', '3':'S31',
+4:'S25', '4':'S25',
+5:'S26', '5':'S26',
+6:'S27', '6':'S27',
+7:'S28', '7':'S28',
+8:'S20', '8':'S20',
+9:'S21', '9':'S21',
+10:'S22', '10':'S22',
+11:'S23', '11':'S23',
+12:'S24', '12':'S24',
+13:'S14', '13':'S14',
+14:'S15', '14':'S15',
+15:'S16', '15':'S16',
+16:'S17', '16':'S17',
+17:'S18', '17':'S18',
+18:'S19', '18':'S19',
+19:'S8', '19':'S8',
+20:'S9', '20':'S9',
+21:'S10', '21':'S10',
+22:'S11', '22':'S11',
+23:'S12', '23':'S12',
+24:'S13', '24':'S13',
+25:'S1', '25':'S1',
+26:'S2', '26':'S2',
+27:'S3', '27':'S3',
+28:'S4', '28':'S4',
+29:'S5', '29':'S5',
+30:'S6', '30':'S6',
+31:'S7', '31':'S7',
+32:'N1', '32':'N1',
+33:'N2', '33':'N2',
+34:'N3', '34':'N3',
+35:'N4', '35':'N4',
+36:'N5', '36':'N5',
+37:'N6', '37':'N6',
+38:'N7', '38':'N7',
+39:'N8', '39':'N8',
+40:'N9', '40':'N9',
+41:'N10', '41':'N10',
+42:'N11', '42':'N11',
+43:'N12', '43':'N12',
+44:'N13', '44':'N13',
+45:'N14', '45':'N14',
+46:'N15', '46':'N15',
+47:'N16', '47':'N16',
+48:'N17', '48':'N17',
+49:'N18', '49':'N18',
+50:'N19', '50':'N19',
+51:'N20', '51':'N20',
+52:'N21', '52':'N21',
+53:'N22', '53':'N22',
+54:'N23', '54':'N23',
+55:'N24', '55':'N24',
+56:'N25', '56':'N25',
+57:'N26', '57':'N26',
+58:'N27', '58':'N27',
+59:'N28', '59':'N28',
+60:'N29', '60':'N29',
+61:'N30', '61':'N30',
+62:'N31', '62':'N31'
+}
+
 ##############################################################
 ####################### Main Function ########################
 ##############################################################
@@ -217,7 +295,7 @@ def KNTraP_download_mef(caldat,pointing_name,
             caldat_filename = row['caldat'].replace('-','')
             band            = row['ifilter'].split(' ')[0]
             prod_type_code  = row['archive_filename'].split('/')[-1].split('_')[3]
-            out_file_name   = f'{pointing_name}.{caldat_filename}_{prod_type_code}_{band}_{file_string}.fits.fz'
+            out_file_name   = f'{pointing_name}.{caldat_filename}_{prod_type_code}_{band}_{file_string.replace(".fits","")}.fits.fz'
             out_path        = f'{raw_dir}/{pointing_name}/mef/{out_file_name}'
             makedirs_(out_path)
 
@@ -243,6 +321,8 @@ def KNTraP_download_mef(caldat,pointing_name,
                         print(f'Read file with size={len(r2.content):,} bytes')
                         open(out_path, 'wb').write(r2.content) # write temp file
                         print(f'Saved: {out_path}')
+                        # Sim link to each CCD directory with right name in CCD directory
+                        sim_link_file(out_path)
                     else:
                         msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
                         raise Exception(msg)
