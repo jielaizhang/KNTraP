@@ -321,8 +321,9 @@ def KNTraP_download_mef(caldat,pointing_name,
                         print(f'Read file with size={len(r2.content):,} bytes')
                         open(out_path, 'wb').write(r2.content) # write temp file
                         print(f'Saved: {out_path}')
-                        # Sim link to each CCD directory with right name in CCD directory
-                        sim_link_file(out_path)
+                        # Sim link to each CCD directory with right name in CCD directory, if is image
+                        if row['prod_type'] == 'image' or row['prod_type'] == 'image1':
+                            sim_link_file(out_path)
                     else:
                         msg = f'Error getting file ({requests.status_codes._codes[r2.status_code][0]}). {r2.json()["message"]}'
                         raise Exception(msg)
