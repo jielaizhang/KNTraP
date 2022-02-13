@@ -28,3 +28,6 @@
           KNTRAP9   <NA> 200.90000 -45.15000     0       NaN                    NaN    KNTRAP9     NAN        <NA>
          KNTRAP10   <NA> 204.40000 -45.30000     0       NaN                    NaN   KNTRAP10     NAN        <NA>
          KNTRAP11   <NA> 195.75000 -45.30000     0       NaN                    NaN   KNTRAP11     NAN        <NA>
+         KNTRAP12   <NA> 212.00000 -39.80000     0       NaN                    NaN   KNTRAP12     NAN        <NA>
+         KNTRAP13   <NA> 192.00000 -46.10000     0       NaN                    NaN   KNTRAP13     NAN        <NA>
+         KNTRAP14   <NA> 186.12000 -45.90000     0       NaN                    NaN   KNTRAP14     NaN        <NA>
