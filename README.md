@@ -20,6 +20,8 @@ optional arguments:
                         Program name
   -id PROPID, --proposal-id PROPID
                         Proposal ID
+  -c COUNT, --count COUNT
+                        Number of identical repeats per exposure
   -d OUTDIR, --directory OUTDIR
                         Path to the directory where the JSON files will be
                         written

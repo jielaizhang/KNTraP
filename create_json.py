@@ -90,6 +90,9 @@ sequence')
     parser.add_argument('-id', '--proposal-id',
                         dest='propID', type=str, default='2022A-679480',
                         help='Proposal ID')
+    parser.add_argument('-c', '--count',
+                        dest='count', type=int, default=1,
+                        help='Number of identical repeats per exposure')
     parser.add_argument('-d', '--directory',
                         dest='outdir', type=str, default='./',
                         help='Path to the directory where the JSON files\
@@ -139,7 +142,7 @@ total time {(tot_time - exptime - args.overhead)/3600:.2f}hr")
         data = get_exp_data(fieldname, ra, dec, exptime, filt,
                  args.program, args.propID, seqID, seqnum, seqtot=None,
                  expType='object', comment=f"PI {args.pi}",
-                 count=1, doWait=False)
+                 count=args.count, doWait=False)
         sequences[str(sequence)].append(data)
     # Verbose for the last sequence
     print(f"Sequence {sequence} has {seqnum} exposures, \
