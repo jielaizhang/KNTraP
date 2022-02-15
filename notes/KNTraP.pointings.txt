@@ -4,6 +4,7 @@
           353.B.a    353  60.01779  -8.29671     0       NaN           353.B.a.json       353B     NaN        <NA>
           353.C.a    353  63.21121 -11.39521     0       NaN           353.C.a.json       353C     NaN        <NA>
           257.A.a    257  85.66643 -24.29022     0       NaN           257.A.a.json       257A     NaN        <NA>
+            S-CVZ   <NA>  90.00000 -66.56056     0       NaN                   NaN       S-CVZ     NaN        <NA>
           257.D.a    257  90.56734 -22.69093     0       NaN           257.D.a.json       257D     NaN        <NA>
           257.C.a    257  91.56552 -25.78954     0       NaN           257.C.a.json       257C     NaN        <NA>
           257.E.a    257  94.96552 -25.78954     0       NaN           257.E.a.json       257E     NaN        <NA>
