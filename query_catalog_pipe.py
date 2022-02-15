@@ -115,7 +115,7 @@ class PhotoCatalog:
                                 height=self.boxsize,
                                 catalog=self.catID)
         # Check if the sources were found
-        if len(t_result[self.catID]) == 0:
+        if len(t_result) == 0:
             return None
         else:
             return t_result[self.catID]
@@ -197,43 +197,68 @@ def write_file(t, pathdir, fieldname, filt, ccd, catname):
             f.write(f"{l['ra']} {l['dec']} {l['mag']} {l['e_mag']}\n")
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description='Query photometric catalogs')
 
-    field_size = 18 # 18 arcmin box search, which is conservative
-    catname = 'SM'
-    # Path to the directory where the files will be saved
-    pathdir = 'catalogs_photometry'
+    parser.add_argument('-f', '--filename', dest='filename',
+                        type=str, help='File with field centers per ccd',
+                        default='KNTraP.fieldcenters')
+    parser.add_argument('-c', '--catalog',
+                        dest='catname', type=str,
+                        default='SM',
+                        help='Catalog to be queried (SM, PS1, APASS, Gaia)')
+    parser.add_argument('-o', '--out-path',
+                        dest='pathdir', type=str,
+                        default='catalogs_photometry',
+                        help='Path to the directory where the files will \
+be saved')
+    parser.add_argument('-s', '--field-size',
+                        dest='field_size', type=float,
+                        default=18,
+                        help='Side of the catalog search box (arcmin)')
+    parser.add_argument('-b', '--bright',
+                        dest='bright_thresh', type=float,
+                        default=5,
+                        help='Brightness (mag) threshold for stars to be flagged')
+    parser.add_argument('--clobber',
+                        dest='clobber', action='store_true', default=False,
+                        help='Clobber (default False)')
+    parser.add_argument('-v', '--verbose',
+                        dest='verbose', action='store_true', default=False,
+                        help='Prints out how many sources were found per field')
+    args = parser.parse_args()
 
     # Read the file with fields info
-    t_centers = ascii.read('KNTraP.fieldcenters')
-
-    # Threshold for bright stars
-    bright_thresh = 5
-
+    t_centers = ascii.read(args.filename[0])
     # One query for each pointing
     for c in t_centers:
         # Iterate over filters
         ra = c['RAdeg']
         dec = c['DECdeg']
         for fil in ['g', 'i']:
-            if catname == 'APASS':
+            if args.catname == 'APASS':
                 fil = fil + "'"
-            cat = PhotoCatalog((ra, dec), field_size, catname, fil=fil) 
+            # Is the file already existent?
+            if args.clobber is False:
+                outfile = f"{args.pathdir}/{c['field']}_{fil[0]}_{c['ampl']}_{args.catname}_phot.cat"
+                if os.path.isfile(outfile):
+                    continue
+            cat = PhotoCatalog((ra, dec), args.field_size, args.catname, fil=fil) 
             t_cat = cat.query()
             if t_cat is None:
-                print(f"Watch out! No {catname} for field {c['field']}? \
-Trying again...")
+                print(f"Watch out! No {args.catname} for field {c['field']}, \
+CCD {c['ampl']}? Trying again...")
                 t_cat = cat.query()
                 if t_cat is None:
                     print(f"...No hope, sorry.")
+                    continue
             # Make the table column names standard
-            if catname == 'APASS' or catname == 'ps1':
+            if args.catname == 'APASS' or 'ps1' in args.catname or 'PS1' in args.catname or 'Pan' in args.catname:
                 t_cat.rename_column("RAJ2000", "ra")
                 t_cat.rename_column("DEJ2000", "dec")
                 t_cat.rename_column(f"{fil[0]}_mag", "mag")
                 t_cat.rename_column(f"e_{fil[0]}_mag", "e_mag")
-            if "SM" in catname or "skymapper" in catname or "SkyMapper" in catname:
-                import pdb
-                pdb.set_trace()
+            if "SM" in args.catname or "skymapper" in args.catname or "SkyMapper" in args.catname:
                 t_cat.rename_column("RAICRS", "ra")
                 t_cat.rename_column("DEICRS", "dec")
                 t_cat.rename_column(f"{fil}PSF", "mag")
@@ -246,15 +271,15 @@ Trying again...")
             nan_index = [i for i in np.arange(len(mags)) if np.isnan(mags[i])]
             mags = np.delete(mags, nan_index)
             t_cat.remove_rows(nan_index)
-            if np.size(np.where(mags < bright_thresh)[0]) > 0:
-                t_bright = t_cat[t_cat['mag'] < bright_thresh]
-                print(f"Careful! Bright objects mag < {bright_thresh} near \
-field {c['field']}, filter {fil[0]}, ccd {c['ampl']}")
+            if np.size(np.where(mags < args.bright_thresh)[0]) > 0:
+                t_bright = t_cat[t_cat['mag'] < args.bright_thresh]
+                print(f"Careful! Bright objects mag < {args.bright_thresh} \
+near field {c['field']}, filter {fil[0]}, ccd {c['ampl']}")
                 print(t_bright)
             # Select only reasonable mags
             t_cat = t_cat[(t_cat['mag'] < 30)]
-            write_file(t_cat, pathdir, c['field'], fil[0], c['ampl'], catname)
-            verbose = False
-            if verbose is True:
+            write_file(t_cat, args.pathdir, c['field'], fil[0], c['ampl'],
+                       args.catname)
+            if args.verbose is True:
                 print(f"Found {len(t_cat)} sources for field {c['field']}, \
 filter {fil[0]}, ccd {c['ampl']}")
