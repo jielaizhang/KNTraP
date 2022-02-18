@@ -9,7 +9,7 @@
           257.D.a    257  90.56734 -22.69093     0       NaN           257.D.a.json       257D     NaN        <NA>
           257.C.a    257  91.56552 -25.78954     0       NaN           257.C.a.json       257C     NaN        <NA>
           257.E.a    257  94.96552 -25.78954     0       NaN           257.E.a.json       257E     NaN        <NA>
-             CDFS   <NA>  52.65000 -28.13500     0       NaN           CDFS.gi.json       CDFS     NaN        <NA>
+             CDFS   <NA>  52.50000 -28.10000     0       NaN           CDFS.gi.json       CDFS     NaN        <NA>
               4hr   <NA>  62.50000 -55.00000     0       NaN                    NaN        4hr     NaN        <NA>
             Prime   <NA>  88.77917 -61.35000     0       NaN                    NaN      Prime     NaN        <NA>
         FRB131104   <NA> 101.00000 -51.26667     0       NaN                    NaN  FRB131104     NaN        <NA>
@@ -20,6 +20,7 @@
             Polar   <NA> 240.00000 -75.00000     0       NaN                    NaN      Polar     NaN        <NA>
           ngc6101   <NA> 246.50000 -73.00000     0       NaN                    NaN    ngc6101     NaN        <NA>
           KNTRAP1   <NA>  99.20000 -50.20000     0       NaN                    NaN    KNTRAP1     NaN        <NA>
+         KNTRAPaa   <NA>  99.20000 -50.20000     0       NaN                    NaN   KNTRAPaa     NaN        <NA>
           KNTRAP2   <NA> 126.00000 -69.00000     0       NaN                    NaN    KNTRAP2     NAN        <NA>
           KNTRAP3   <NA> 133.50000 -67.80000     0       NaN                    NaN    KNTRAP3     NAN        <NA>
           KNTRAP4   <NA> 138.50000 -73.60000     0       NaN                    NaN    KNTRAP4     NAN        <NA>
@@ -33,3 +34,4 @@
          KNTRAP12   <NA> 212.00000 -39.80000     0       NaN                    NaN   KNTRAP12     NAN        <NA>
          KNTRAP13   <NA> 192.00000 -46.10000     0       NaN                    NaN   KNTRAP13     NAN        <NA>
          KNTRAP14   <NA> 186.12000 -45.90000     0       NaN                    NaN   KNTRAP14     NaN        <NA>
+        AT2022cmc   <NA> 203.20000  33.20000     0       NaN                    NaN  AT2022cmc     NaN        <NA>
