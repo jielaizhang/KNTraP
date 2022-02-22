@@ -36,7 +36,7 @@ for ID in inspect_ids:
     number_open += 1
     total_opened +=1
     if number_open == number_urls_to_open_at_once:
-        while input_key == 'BLAH':
+        while input_key != 'q' and input_key != 'c':
             input_key = input(f"Opened {total_opened}/{len(inspect_ids)} tabs so far.Press c: continue; Press q: quit.")
             if input_key == 'q':
                 print('Input: ',input_key)
