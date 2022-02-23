@@ -155,7 +155,7 @@ class GaiaAstrometry:
                           dec=self.field_dec*u.deg)
         # Select only those columns with relevant info for Scamp
         columns_select = ['RA_ICRS', 'e_RA_ICRS', 'DE_ICRS', 'e_DE_ICRS',
-                          'Source', 'Gmag', 'e_Gmag']
+                          'Source', 'Gmag', 'e_Gmag', 'Plx']
         # Vizier object
         v = Vizier(columns=columns_select, row_limit=-1)
         # Query Vizier
@@ -229,7 +229,7 @@ be saved')
     args = parser.parse_args()
 
     # Read the file with fields info
-    t_centers = ascii.read(args.filename)
+    t_centers = ascii.read(args.filename[0])
     # One query for each pointing
     for c in t_centers:
         # Iterate over filters
