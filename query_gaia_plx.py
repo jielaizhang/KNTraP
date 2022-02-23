@@ -1,12 +1,16 @@
 # Author: Igor Andreoni
 
 from query_catalog_pipe import GaiaAstrometry
-
+from astropy.coordinates import SkyCoord
+import astropy.units as u 
 
 
 def query_coords_gaia(ra, dec, radius_arcsec=2.):
     gaia = GaiaAstrometry((ra, dec), radius_arcsec/60)
     t_gaia = gaia.query_gaia_astrom()
+    coords = SkyCoord(t_gaia['RA_ICRS'], t_gaia['DE_ICRS'])
+    sep = coords.separation(SkyCoord(ra*u.deg, dec*u.deg))
+    t_gaia["separation"] = sep.to('arcsec')
     print(t_gaia)
 
 
