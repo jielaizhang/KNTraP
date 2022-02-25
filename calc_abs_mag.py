@@ -3,7 +3,9 @@ import astropy.units as u
 import numpy as np
 import argparse
 import matplotlib.pyplot as plt
+import os
 
+out_dir = os.getenv('HOME')+os.sep+'Desktop'
 
 # Function to get Mpc x-axis
 def tick_function(redshift):
@@ -71,7 +73,7 @@ ax3.set_xticks(tick_locations)
 ax3.set_xticklabels(tick_function(tick_locations))
 ax3.set_xlabel(r"Luminosity Dist (Mpc)")
 
-plt.savefig(f'z_versusM_{args.redshift_range}_m{args.apparent_mag}.png',bbox_inches='tight')
+plt.savefig(f'{out_dir}/z_versusM_{args.redshift_range}_m{args.apparent_mag}.png',bbox_inches='tight')
 ###############################################
 
 ###############################################
@@ -98,5 +100,5 @@ ax3.set_xticks(tick_locations)
 ax3.set_xticklabels(tick_function(tick_locations))
 ax3.set_xlabel(r"Luminosity Dist (Mpc)")
 
-plt.savefig(f'z_versusE_{args.redshift_range}_m{args.apparent_mag}.png',bbox_inches='tight')
+plt.savefig(f'{out_dir}/z_versusE_{args.redshift_range}_m{args.apparent_mag}.png',bbox_inches='tight')
 ###############################################
