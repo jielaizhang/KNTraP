@@ -229,13 +229,13 @@ be saved')
     args = parser.parse_args()
 
     # Read the file with fields info
-    t_centers = ascii.read(args.filename[0])
+    t_centers = ascii.read(args.filename)
     # One query for each pointing
     for c in t_centers:
         # Iterate over filters
         ra = c['RAdeg']
         dec = c['DECdeg']
-        for fil in ['g', 'i']:
+        for fil in ['g', 'i', 'r']:
             if args.catname == 'APASS':
                 fil = fil + "'"
             # Is the file already existent?
